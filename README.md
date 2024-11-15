@@ -3,10 +3,10 @@ A mod to add gryphons like Harper and Wynter to rimworld as human like pawns.
 
 ## Features
 + Currently 3 races: Harper like, Wynter like and a cream colored gryphon
-+ A new leather catagory that has Gryphon feathers
++ A new leather category that has Gryphon feathers
 + A set of Genes for the Gryphons
 + Bionic parts for gryphons 
-+ Furnature for gryhons
++ Furniture for gryphons
 + Preening Feature
 + And more (coming soon)
 
