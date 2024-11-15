@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <AlienRace.ThingDef_AlienRace ParentName="BasePawn">
+        <defName>cream_gryphon</defName>
+        <label>Cream Gryphon</label>
+        <description>A common cream colored gryphon (as a pawn)</description>
+
+        <alienRace>
+            <graphicPaths>
+                <body>
+                    <path>CommonGryphon/Body/</path>
+                </body>
+                <head>
+                    <path>CommonGryphon/Heads/</path>
+                </head>
+                <skeleton>
+                    <path>Sol/Dessicated/Dessicated_Solstice_east</path>
+                </skeleton>
+                <skull>
+                    <path>Sol/Heads/Average_Normal_east</path>
+                </skull>
+
+                
+            </graphicPaths> 
+
+            <styleSettings>
+                <li>
+                    <key>HairDef</key>
+                    <value>
+                        <hasStyle>false</hasStyle>
+                    </value>
+                </li>
+                <li>
+                    <key>BeardDef</key>
+                    <value>
+                        <hasStyle>false</hasStyle>
+                    </value>
+                </li>
+                <li>
+                    <key>TattooDef</key>
+                    <value>
+                        <hasStyle>false</hasStyle>
+                    </value>
+                </li>
+            </styleSettings>
+
+            <generalSettings>
+                <maleGenderProbability>0.5</maleGenderProbability>
+                <immuneToAge>false</immuneToAge>
+                <minAgeForAdulthood>10</minAgeForAdulthood>
+                <allowHumanBios>true</allowHumanBios>
+
+                <canLayDown>true</canLayDown>
+
+                <maxDamageForSocialfight>10</maxDamageForSocialfight>
+
+                <lovinIntervalHoursFromAge>
+                    <points>
+                        <li>(8, 1.4)</li>
+                        <li>(20, 1.5)</li>
+                        <li>(30, 3)</li>
+                        <li>(50, 10)</li>
+                        <li>(70, 20)</li>
+                    </points>
+                </lovinIntervalHoursFromAge>
+
+                <growthAges>
+                    <li>1</li>
+                    <li>3</li>
+                    <li>6</li>
+                    <li>10</li>
+                </growthAges>
+
+                <raceGenes>
+                    <li>
+                        <defName>Gryphon_Skin</defName>
+                        <chance>100</chance>
+                    </li>
+                </raceGenes>
+
+                <reproduction>
+                    <femaleFertilityAgeFactor>
+                        <points>
+                            <li>(12, 0)</li>
+                            <li>(14, 1)</li>
+                            <li>(28, 1)</li>
+                            <li>(40, 0.8)</li>
+                            <li>(45, 0)</li>
+                        </points>
+                    </femaleFertilityAgeFactor>
+
+                    <maleFertilityAgeFactor>
+                        <points>
+                            <li>(12, 0)</li>
+                            <li>(14, 1)</li>
+                            <li>(40, 1)</li>
+                            <li>(50, 0)</li>
+                        </points>
+                    </maleFertilityAgeFactor>
+                </reproduction>
+
+                <alienPartGenerator>
+                    <bodyTypes>
+						<li>Male</li>
+						<li>Female</li>
+                        <li MayRequire="Ludeon.RimWorld.Biotech">Baby</li>
+						<li MayRequire="Ludeon.RimWorld.Biotech">Child</li>
+					</bodyTypes>
+
+                    <headTypes Inherit="False">
+                        <li>Male_AverageNormal</li>
+                        <li>Female_AverageNormal</li>
+                    </headTypes>
+                    <headOffsetDirectional>
+                        <north>
+                            <headTypes>
+                                <Male_AverageNormal>(0.0, 0.65)</Male_AverageNormal>
+                                <Female_AverageNormal>(0.0, 0.65)</Female_AverageNormal>
+                            </headTypes>
+                            <bodyTypes>
+                                <Male>(0.0, -0.4)</Male>
+                                <Female>(0.0, -0.4)</Female>
+                            </bodyTypes>
+                        </north>
+                        <south>
+                            <headTypes>
+                                <Male_AverageNormal>(0.0, 0.65)</Male_AverageNormal>
+                                <Female_AverageNormal>(0.0, 0.65)</Female_AverageNormal>
+                            </headTypes>
+                            <bodyTypes>
+                                <Male>(0.0, -0.4)</Male>
+                                <Female>(0.0, -0.4)</Female>
+                            </bodyTypes>
+                        </south>
+                        <east>
+                            <headTypes>
+                                <Male_AverageNormal>(0.45, 0.20)</Male_AverageNormal>
+                                <Female_AverageNormal>(0.45, 0.20)</Female_AverageNormal>
+                            </headTypes>
+                        </east>
+                        <west>
+                            <headTypes>
+                                <Male_AverageNormal>(-0.40, 0.20)</Male_AverageNormal>
+                                <Female_AverageNormal>(-0.40, 0.20)</Female_AverageNormal>
+                            </headTypes>
+                        </west>
+                    </headOffsetDirectional>
+
+                    <customDrawSize>(1.8, 1.8)</customDrawSize>
+                    <customPortraitHeadDrawSize>(0.01, 0.01)</customPortraitHeadDrawSize>
+                    <customHeadDrawSize>(0.95, 0.95)</customHeadDrawSize>
+                    <borderScale>4.0</borderScale>
+                    <atlasScale>3</atlasScale>
+
+                    <colorChannels>
+                        <li>
+                            <name>skin</name>
+							<first Class="ColorGenerator_Options">
+								<options>
+									<li>
+										<weight>100</weight>
+										<only>RGBA(210, 255, 255, 255)</only>
+									</li>
+								</options>
+							</first>
+                            <second Class="AlienRace.ColorGenerator_CustomAlienChannel">
+                                <colorChannel>skin_1</colorChannel>
+                            </second>
+                        </li>
+                    </colorChannels>
+                </alienPartGenerator>
+            </generalSettings>
+
+            <raceRestriction>
+                <onlyUseRaceRestrictedWeapons>true</onlyUseRaceRestrictedWeapons>
+                <onlyUseRaceRestrictedApparel>true</onlyUseRaceRestrictedApparel>
+                <onlyUseRaceRestrictedXenotypes>true</onlyUseRaceRestrictedXenotypes>
+
+                <whiteApparelList>
+                     <li>Apparel_PackControl</li>
+                     <li>Apparel_ArrayHeadset</li>
+                     <li>Apparel_AirwireHeadset</li>
+                     <li>Apparel_IntegratorHeadset</li>
+                </whiteApparelList>
+
+                <geneList>
+                    <li>Gryphon_Skin</li>
+                </geneList>
+            </raceRestriction>
+
+            <compatibility>
+                <isFlesh>true</isFlesh>
+                <isSentient>true</isSentient> 
+                <hasBlood>true</hasBlood>
+            </compatibility>
+        </alienRace>
+
+        <race>
+            <thinkTreeMain>Humanlike</thinkTreeMain>
+			<thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
+			<intelligence>Humanlike</intelligence>
+			<makesFootprints>true</makesFootprints>
+			<lifeExpectancy>60</lifeExpectancy>
+			<leatherDef>Gryphon_Feather</leatherDef>
+			<nameCategory>HumanStandard</nameCategory>
+			<body>QuadrupedAnimalWithWingsAndBeak</body>
+			<baseBodySize>2.5</baseBodySize>
+			<baseHealthScale>4</baseHealthScale>
+			<foodType>CarnivoreAnimal, OmnivoreHuman</foodType>
+            <baseHungerRate>0.40</baseHungerRate>
+			<gestationPeriodDays>20</gestationPeriodDays>
+			<meatMarketValue>0.5</meatMarketValue>
+			<manhunterOnDamageChance>1.2</manhunterOnDamageChance>
+			<manhunterOnTameFailChance>0.5</manhunterOnTameFailChance>
+
+            <renderTree>Humanlike</renderTree>
+            <bloodDef>Filth_Blood</bloodDef>
+            <bloodSmearDef>Filth_BloodSmear</bloodSmearDef>
+            <knowledgeCategory MayRequire="Ludeon.RimWorld.Anomaly">Basic</knowledgeCategory>
+            <anomalyKnowledge>2</anomalyKnowledge>
+
+            <lifeStageAges>
+				<!-- These Saffect stats and if your Race is ready to Lay eggs or be milked if you set that up in the LifeStage, it also determins when your Race is Sexualy Mature and can Reproduce which is not used by Humanlikes in Vanilla -->
+                <li Class="AlienRace.LifeStageAgeAlien">
+                        <def>HumanlikeBaby</def>
+                        <minAge>0</minAge>
+                        <customDrawSize>(0.7, 0.7)</customDrawSize>
+                        <customHeadDrawSize>(0.01, 0.01)</customHeadDrawSize>
+
+                        <!--<headOffsetDirectional>
+                            <north>
+                                <headTypes>
+                                    <Male_AverageNormal>(0.0, -0.05)</Male_AverageNormal>
+                                    <Female_AverageNormal>(0.0, -0.05)</Female_AverageNormal>
+                                </headTypes>
+                                <bodyTypes>
+                                    <Male>(0.0, -0.4)</Male>
+                                    <Female>(0.0, -0.4)</Female>
+                                </bodyTypes>
+                            </north>
+                            <south>
+                                <headTypes>
+                                    <Male_AverageNormal>(0.0, -0.05)</Male_AverageNormal>
+                                    <Female_AverageNormal>(0.0, -0.05)</Female_AverageNormal>
+                                </headTypes>
+                                <bodyTypes>
+                                    <Male>(0.0, -0.4)</Male>
+                                    <Female>(0.0, -0.4)</Female>
+                                </bodyTypes>
+                            </south>
+                            <east>
+                                <headTypes>
+                                    <Male_AverageNormal>(0.45, 0.20)</Male_AverageNormal>
+                                    <Female_AverageNormal>(0.45, 0.20)</Female_AverageNormal>
+                                </headTypes>
+                            </east>
+                            <west>
+                                <headTypes>
+                                    <Male_AverageNormal>(-0.40, 0.20)</Male_AverageNormal>
+                                    <Female_AverageNormal>(-0.40, 0.20)</Female_AverageNormal>
+                                </headTypes>
+                            </west>
+                        </headOffsetDirectional>-->
+                </li>
+                <li Class="AlienRace.LifeStageAgeAlien">
+                    <def>HumanlikeChild</def>
+                    <minAge>1</minAge>
+                    <customDrawSize>(1, 1)</customDrawSize>
+                    <customHeadDrawSize>(0.01, 0.01)</customHeadDrawSize>
+                </li>
+                <li Class="AlienRace.LifeStageAgeAlien">
+                    <def>HumanlikeTeenager</def>
+                    <minAge>3</minAge>
+                    <customDrawSize>(1.5, 1.5)</customDrawSize>
+                </li>
+                <li>
+                    <def>HumanlikeAdult</def>
+                    <minAge>10</minAge>
+                </li>
+            </lifeStageAges>
+          
+            <soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_Punch_HitPawn</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
+			<soundMeleeDodge>Pawn_MeleeDodge</soundMeleeDodge>
+
+            <ageGenerationCurve>
+                <points>
+                    <li MayRequire="Ludeon.RimWorld.Biotech">(0,0)</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">(0.1,10)</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">(0.9,30)</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">(1.5,100)</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">(2.9,0)</li>
+                    <li MayRequire="Ludeon.RimWorld.Biotech">(3,0)</li>
+                    <li MayRequire="Ludeon.RimWorld.Biotech">(3.1,0)</li>
+                    <li MayRequire="Ludeon.RimWorld.Biotech">(3.5,100)</li>
+                    <li MayRequire="Ludeon.RimWorld.Biotech">(8,100)</li>
+                    <li>(12,0)</li>
+                    <li>(15,100)</li>
+                    <li>(30,100)</li>
+                    <li>(35,30)</li>
+                    <li>(40,18)</li>
+                    <li>(45,10)</li>
+                    <li>(50,0)</li>
+                </points>
+            </ageGenerationCurve>
+        </race>
+
+        <comps>
+            <li Class="HarperAndFriends.CompProperties_Preenable">
+                <featherDef>Gryphon_Feather</featherDef>
+                <featherIntervalDays>7</featherIntervalDays>
+                <featherAmount>10</featherAmount>
+                <minAge>7</minAge>
+            </li>
+        </comps>
+
+        <recipes>
+            <li>RemoveBodyPart</li>
+            <li>Anesthetize</li>
+            <li>CureScaria</li>
+            <li MayRequire="Ludeon.RimWorld.Biotech">TerminatePregnancy</li>
+            <li MayRequire="Ludeon.RimWorld.Biotech">ImplantIUD</li>
+            <li MayRequire="Ludeon.RimWorld.Biotech">RemoveIUD</li>
+            <li MayRequire="Ludeon.RimWorld.Royalty">CureBloodRot</li>
+            <li MayRequire="Ludeon.rimwolrd.Royalty">InstallNeurocalculator</li>
+            <li MayRequire="Ludeon.rimwolrd.Royalty">RemoveNeurocalculator</li>
+            <li MayRequire="Ludeon.rimwolrd.Royalty">InstallLearningAssistant</li>
+            <li MayRequire="Ludeon.rimwolrd.Royalty">RemoveLearningAssistant</li>
+            <li MayRequire="Ludeon.rimwolrd.Royalty">InstallNuclearStomach</li>
+            <li MayRequire="Ludeon.rimwolrd.Royalty">InstallLoveEnhancer</li>
+        </recipes>
+
+        <statBases>
+            <MarketValue>2000</MarketValue>
+            <ArmorRating_Blunt>1.2</ArmorRating_Blunt>
+            <ArmorRating_Sharp>0.6</ArmorRating_Sharp>
+            <ArmorRating_Heat>0.6</ArmorRating_Heat>
+            <MoveSpeed>7</MoveSpeed>
+            <ComfyTemperatureMin>-20</ComfyTemperatureMin>
+			<ComfyTemperatureMax>50</ComfyTemperatureMax>
+            <LeatherAmount>20</LeatherAmount>
+			<RoyalFavorValue>2</RoyalFavorValue>
+            <Flammability>0.3</Flammability>
+            <ImmunityGainSpeed>1.4</ImmunityGainSpeed>
+            <FoodPoisonChance>0.6</FoodPoisonChance>
+            <MentalBreakThreshold>0.3</MentalBreakThreshold>
+            <CarryingCapacity>100</CarryingCapacity>
+        </statBases>
+
+        <tools Inherit="False">
+            <li>
+			    <label>Left Claw</label>
+			    <capacities>
+				    <li>Scratch</li>
+			    </capacities>
+			    <power>15</power>
+			    <cooldownTime>1.5</cooldownTime>
+			    <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+                <surpriseAttack>
+                    <extraMeleeDamages>
+                        <li>
+                            <def>Stun</def>
+                            <amount>10</amount>
+                        </li>
+                    </extraMeleeDamages>
+                </surpriseAttack>
+            </li>
+
+            <li>
+                <label>Right Claw</label>
+                <capacities>
+                    <li>Scratch</li>
+                </capacities>
+                <power>15</power>
+                <cooldownTime>1.5</cooldownTime>
+                <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+                <surpriseAttack>
+                    <extraMeleeDamages>
+                        <li>
+                            <def>Stun</def>
+                            <amount>10</amount>
+                        </li>
+                    </extraMeleeDamages>
+                </surpriseAttack>
+            </li>
+
+            <li>
+                <label>Bite</label>
+                <capacities>
+                    <li>Stab</li>
+                </capacities>
+                <power>30</power>
+                <cooldownTime>3.5</cooldownTime>
+                <linkedBodyPartsGroup>Beak</linkedBodyPartsGroup>
+                <surpriseAttack>
+                    <extraMeleeDamages>
+                        <li>
+                            <def>Stun</def>
+                            <amount>15</amount>
+                        </li>
+                    </extraMeleeDamages>
+                </surpriseAttack>
+            </li>
+        </tools>
+    </AlienRace.ThingDef_AlienRace>
+
+    <AlienRace.RaceSettings>
+        <defName>CreamGryph_RaceSettings</defName>
+        
+        <pawnKindSettings>
+            <startingColonists>
+                <li>
+                    <pawnKindEntries>
+                        <li>
+                            <kindDefs>
+                                <li>CreamGryphon_Colonist</li>
+                            </kindDefs>
+                            <chance>100.0</chance>
+                        </li>
+                    </pawnKindEntries>
+                    <factionDefs>
+                        <li>PlayerColony</li> 
+                    </factionDefs>
+                </li>
+            </startingColonists>
+
+            <alienrefugeekinds>
+                <li>
+                    <kindDefs>
+                        <li>CreamGryphon_SpaceRefugee</li>
+                    </kindDefs>
+                    <chance>100.0</chance>
+                </li>
+            </alienrefugeekinds>
+        </pawnKindSettings>
+    </AlienRace.RaceSettings>
+</Defs>
