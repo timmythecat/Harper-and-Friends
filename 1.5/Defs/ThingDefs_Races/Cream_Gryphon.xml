@@ -416,7 +416,7 @@
                             <kindDefs>
                                 <li>CreamGryphon_Colonist</li>
                             </kindDefs>
-                            <chance>20.0</chance>
+                            <chance>10.0</chance>
                         </li>
                     </pawnKindEntries>
                     <factionDefs>
