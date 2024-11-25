@@ -400,4 +400,19 @@
             </li>
         </tools>
     </AlienRace.ThingDef_AlienRace>
+
+    <AlienRace.RaceSettings>
+        <defName>Sol_RaceSettings</defName>
+
+        <pawnKindSettings>
+            <alienrefugeekinds>
+                <li>
+                    <kindDefs>
+                        <li>Sol_SpaceRefugee</li>
+                    </kindDefs>
+                    <chance>100.0</chance>
+                </li>
+            </alienrefugeekinds>
+        </pawnKindSettings>
+    </AlienRace.RaceSettings>
 </Defs>
