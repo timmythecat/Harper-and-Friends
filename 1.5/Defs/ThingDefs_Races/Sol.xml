@@ -17,7 +17,7 @@
                     <path>Sol/Dessicated/Dessicated_Solstice_east</path>
                 </skeleton>
                 <skull>
-                    <path>Sol/Heads/Average_Normal_east</path>
+                    <path>Textures/Other/Average_Normal_east</path>
                 </skull>
             </graphicPaths> 
 
@@ -410,7 +410,7 @@
                     <kindDefs>
                         <li>Sol_SpaceRefugee</li>
                     </kindDefs>
-                    <chance>100.0</chance>
+                    <chance>50.0</chance>
                 </li>
             </alienrefugeekinds>
         </pawnKindSettings>
