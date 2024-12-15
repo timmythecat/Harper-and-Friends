@@ -284,6 +284,15 @@
 			<soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
 			<soundMeleeDodge>Pawn_MeleeDodge</soundMeleeDodge>
 
+            <litterSizeCurve>
+				<points>
+					<li>(0.5, 0)</li>
+					<li>(1, 1)</li>
+					<li>(1.01, 0.05)</li>
+					<li>(2, 0)</li>
+				</points>
+			</litterSizeCurve>
+
             <ageGenerationCurve>
                 <points>
                     <li MayRequire="Ludeon.RimWorld.Biotech">(0,0)</li>
