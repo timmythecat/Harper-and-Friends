@@ -455,7 +455,7 @@
                     <kindDefs>
                         <li>CreamGryphon_SpaceRefugee</li>
                     </kindDefs>
-                    <chance>100.0</chance>
+                    <chance>80.0</chance>
                 </li>
             </alienrefugeekinds>
 
@@ -464,7 +464,7 @@
                     <kindDefs>
                         <li>CreamGryph_Slave</li>
                     </kindDefs>
-                    <chance>100.0</chance>
+                    <chance>80.0</chance>
                 </li>
             </alienslavekinds>
         </pawnKindSettings>

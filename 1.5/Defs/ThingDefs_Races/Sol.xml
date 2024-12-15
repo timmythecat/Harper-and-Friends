@@ -410,7 +410,7 @@
                     <kindDefs>
                         <li>Sol_SpaceRefugee</li>
                     </kindDefs>
-                    <chance>50.0</chance>
+                    <chance>30.0</chance>
                 </li>
             </alienrefugeekinds>
         </pawnKindSettings>
