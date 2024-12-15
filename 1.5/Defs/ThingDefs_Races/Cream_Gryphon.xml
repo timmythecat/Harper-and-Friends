@@ -67,7 +67,7 @@
                 <growthAges>
                     <li>1</li>
                     <li>3</li>
-                    <li>6</li>
+                    <li>7</li>
                     <li>10</li>
                 </growthAges>
 
@@ -263,6 +263,11 @@
                         </headOffsetDirectional>-->
                 </li>
                 <li Class="AlienRace.LifeStageAgeAlien">
+                        <def>HumanlikeBaby</def>
+                        <minAge>0</minAge>
+                        <customDrawSize>(0.7, 0.7)</customDrawSize>
+                </li>
+                <li Class="AlienRace.LifeStageAgeAlien">
                     <def>HumanlikeChild</def>
                     <minAge>1</minAge>
                     <customDrawSize>(1, 1)</customDrawSize>
@@ -270,12 +275,12 @@
                 </li>
                 <li Class="AlienRace.LifeStageAgeAlien">
                     <def>HumanlikeTeenager</def>
-                    <minAge>3</minAge>
+                    <minAge>7</minAge>
                     <customDrawSize>(1.5, 1.5)</customDrawSize>
                 </li>
                 <li>
                     <def>HumanlikeAdult</def>
-                    <minAge>10</minAge>
+                    <minAge>12</minAge>
                 </li>
             </lifeStageAges>
           
@@ -296,13 +301,12 @@
             <ageGenerationCurve>
                 <points>
                     <li MayRequire="Ludeon.RimWorld.Biotech">(0,0)</li>
-					<li MayRequire="Ludeon.RimWorld.Biotech">(0.1,10)</li>
 					<li MayRequire="Ludeon.RimWorld.Biotech">(0.9,30)</li>
-					<li MayRequire="Ludeon.RimWorld.Biotech">(1.5,100)</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">(1.5,80)</li>
 					<li MayRequire="Ludeon.RimWorld.Biotech">(2.9,0)</li>
                     <li MayRequire="Ludeon.RimWorld.Biotech">(3,0)</li>
                     <li MayRequire="Ludeon.RimWorld.Biotech">(3.1,0)</li>
-                    <li MayRequire="Ludeon.RimWorld.Biotech">(3.5,100)</li>
+                    <li MayRequire="Ludeon.RimWorld.Biotech">(3.5,80)</li>
                     <li MayRequire="Ludeon.RimWorld.Biotech">(8,100)</li>
                     <li>(12,0)</li>
                     <li>(15,100)</li>
