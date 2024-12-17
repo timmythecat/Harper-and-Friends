@@ -73,7 +73,7 @@
     </comps>
     <rotatable>true</rotatable>
     <costList>
-		  <Gryphon_Feather>100</Gryphon_Feather>
+		  <Gryphon_Feather>150</Gryphon_Feather>
 	  </costList>
     <statBases>
       <MaxHitPoints>600</MaxHitPoints>
@@ -93,7 +93,7 @@
     <researchPrerequisites>
       <li>ComplexFurniture</li>
     </researchPrerequisites>
-    <costStuffCount>150</costStuffCount>
+    <costStuffCount>100</costStuffCount>
     <size>(2,2)</size>
     <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
     <leaveResourcesWhenKilled>True</leaveResourcesWhenKilled>

@@ -18,3 +18,4 @@ Now I will allow sub mods if you'd like to use some of my features like preening
 
 ### Special Thanks
 - OttersHoldHands
+- Anthitei
