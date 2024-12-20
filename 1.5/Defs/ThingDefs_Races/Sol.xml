@@ -339,7 +339,7 @@
 			<RoyalFavorValue>2</RoyalFavorValue>
             <Flammability>0.3</Flammability>
             <ImmunityGainSpeed>1.5</ImmunityGainSpeed>
-            <FoodPoisonChance>0.6</FoodPoisonChance>
+            <FoodPoisonChance>0.7</FoodPoisonChance>
             <MentalBreakThreshold>0.35</MentalBreakThreshold>
             <CarryingCapacity>100</CarryingCapacity>
         </statBases>

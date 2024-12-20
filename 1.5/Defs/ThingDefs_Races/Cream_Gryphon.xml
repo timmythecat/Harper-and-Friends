@@ -354,9 +354,9 @@
 			<ComfyTemperatureMax>50</ComfyTemperatureMax>
             <LeatherAmount>20</LeatherAmount>
 			<RoyalFavorValue>2</RoyalFavorValue>
-            <Flammability>0.3</Flammability>
+            <Flammability>0.4</Flammability>
             <ImmunityGainSpeed>1.4</ImmunityGainSpeed>
-            <FoodPoisonChance>0.6</FoodPoisonChance>
+            <FoodPoisonChance>0.8</FoodPoisonChance>
             <MentalBreakThreshold>0.3</MentalBreakThreshold>
             <CarryingCapacity>100</CarryingCapacity>
         </statBases>

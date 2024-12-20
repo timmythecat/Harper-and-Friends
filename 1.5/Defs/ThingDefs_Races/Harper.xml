@@ -331,12 +331,12 @@
             <ArmorRating_Heat>2</ArmorRating_Heat>
             <MoveSpeed>8.5</MoveSpeed>
             <ComfyTemperatureMin>-40</ComfyTemperatureMin>
-			<ComfyTemperatureMax>120</ComfyTemperatureMax>
+			<ComfyTemperatureMax>150</ComfyTemperatureMax>
             <LeatherAmount>30</LeatherAmount>
 			<RoyalFavorValue>2</RoyalFavorValue>
             <Flammability>0.05</Flammability>
             <ImmunityGainSpeed>1.8</ImmunityGainSpeed>
-            <FoodPoisonChance>0.6</FoodPoisonChance>
+            <FoodPoisonChance>0.7</FoodPoisonChance>
             <MentalBreakThreshold>0.3</MentalBreakThreshold>
             <CarryingCapacity>100</CarryingCapacity>
         </statBases>
