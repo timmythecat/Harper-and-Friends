@@ -134,13 +134,9 @@
                     <headOffsetDirectional>
                         <north>
                             <headTypes>
-                                <Male_AverageNormal>(0.0, 0.8)</Male_AverageNormal>
-                                <Female_AverageNormal>(0.0, 0.8)</Female_AverageNormal>
+                                <Male_AverageNormal>(0.0, 0.1)</Male_AverageNormal>
+                                <Female_AverageNormal>(0.0, 0.1)</Female_AverageNormal>
                             </headTypes>
-                            <bodyTypes>
-                                <Male>(0.0, -0.4)</Male>
-                                <Female>(0.0, -0.4)</Female>
-                            </bodyTypes>
                         </north>
                         <south>
                             <headTypes>
@@ -167,6 +163,7 @@
                     </headOffsetDirectional>
 
                     <customDrawSize>(2.4, 2.4)</customDrawSize>
+                    <customPortraitDrawSize>(1.4, 1.4)</customPortraitDrawSize>
                     <customPortraitHeadDrawSize>(0.01, 0.01)</customPortraitHeadDrawSize>
                     <customHeadDrawSize>(1.2, 1.2)</customHeadDrawSize>
                     <borderScale>4.0</borderScale>

@@ -112,26 +112,6 @@
                         <li>Female_AverageNormal</li>
                     </headTypes>
                     <headOffsetDirectional>
-                        <north>
-                            <headTypes>
-                                <Male_AverageNormal>(0.0, 0.65)</Male_AverageNormal>
-                                <Female_AverageNormal>(0.0, 0.65)</Female_AverageNormal>
-                            </headTypes>
-                            <bodyTypes>
-                                <Male>(0.0, -0.4)</Male>
-                                <Female>(0.0, -0.4)</Female>
-                            </bodyTypes>
-                        </north>
-                        <south>
-                            <headTypes>
-                                <Male_AverageNormal>(0.0, 0.65)</Male_AverageNormal>
-                                <Female_AverageNormal>(0.0, 0.65)</Female_AverageNormal>
-                            </headTypes>
-                            <bodyTypes>
-                                <Male>(0.0, -0.4)</Male>
-                                <Female>(0.0, -0.4)</Female>
-                            </bodyTypes>
-                        </south>
                         <east>
                             <headTypes>
                                 <Male_AverageNormal>(0.45, 0.20)</Male_AverageNormal>
@@ -147,8 +127,9 @@
                     </headOffsetDirectional>
 
                     <customDrawSize>(1.8, 1.8)</customDrawSize>
-                    <customPortraitHeadDrawSize>(0.01, 0.01)</customPortraitHeadDrawSize>
-                    <customHeadDrawSize>(0.95, 0.95)</customHeadDrawSize>
+                    <customPortraitDrawSize>(1.6, 1.6)</customPortraitDrawSize>
+                    <customPortraitHeadDrawSize>(0.9, 0.9)</customPortraitHeadDrawSize>
+                    <customHeadDrawSize>(0.97, 0.97)</customHeadDrawSize>
                     <borderScale>4.0</borderScale>
                     <atlasScale>3</atlasScale>
 
@@ -226,41 +207,6 @@
                         <minAge>0</minAge>
                         <customDrawSize>(0.7, 0.7)</customDrawSize>
                         <customHeadDrawSize>(0.01, 0.01)</customHeadDrawSize>
-
-                        <!--<headOffsetDirectional>
-                            <north>
-                                <headTypes>
-                                    <Male_AverageNormal>(0.0, -0.05)</Male_AverageNormal>
-                                    <Female_AverageNormal>(0.0, -0.05)</Female_AverageNormal>
-                                </headTypes>
-                                <bodyTypes>
-                                    <Male>(0.0, -0.4)</Male>
-                                    <Female>(0.0, -0.4)</Female>
-                                </bodyTypes>
-                            </north>
-                            <south>
-                                <headTypes>
-                                    <Male_AverageNormal>(0.0, -0.05)</Male_AverageNormal>
-                                    <Female_AverageNormal>(0.0, -0.05)</Female_AverageNormal>
-                                </headTypes>
-                                <bodyTypes>
-                                    <Male>(0.0, -0.4)</Male>
-                                    <Female>(0.0, -0.4)</Female>
-                                </bodyTypes>
-                            </south>
-                            <east>
-                                <headTypes>
-                                    <Male_AverageNormal>(0.45, 0.20)</Male_AverageNormal>
-                                    <Female_AverageNormal>(0.45, 0.20)</Female_AverageNormal>
-                                </headTypes>
-                            </east>
-                            <west>
-                                <headTypes>
-                                    <Male_AverageNormal>(-0.40, 0.20)</Male_AverageNormal>
-                                    <Female_AverageNormal>(-0.40, 0.20)</Female_AverageNormal>
-                                </headTypes>
-                            </west>
-                        </headOffsetDirectional>-->
                 </li>
                 <li Class="AlienRace.LifeStageAgeAlien">
                         <def>HumanlikeBaby</def>
@@ -277,6 +223,7 @@
                     <def>HumanlikeTeenager</def>
                     <minAge>7</minAge>
                     <customDrawSize>(1.5, 1.5)</customDrawSize>
+                    <customHeadDrawSize>(0.85, 0.85)</customHeadDrawSize>
                 </li>
                 <li>
                     <def>HumanlikeAdult</def>
