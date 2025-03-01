@@ -111,25 +111,11 @@
                         <li>Male_AverageNormal</li>
                         <li>Female_AverageNormal</li>
                     </headTypes>
-                    <headOffsetDirectional>
-                        <east>
-                            <headTypes>
-                                <Male_AverageNormal>(0.45, 0.20)</Male_AverageNormal>
-                                <Female_AverageNormal>(0.45, 0.20)</Female_AverageNormal>
-                            </headTypes>
-                        </east>
-                        <west>
-                            <headTypes>
-                                <Male_AverageNormal>(-0.40, 0.20)</Male_AverageNormal>
-                                <Female_AverageNormal>(-0.40, 0.20)</Female_AverageNormal>
-                            </headTypes>
-                        </west>
-                    </headOffsetDirectional>
 
-                    <customDrawSize>(1.8, 1.8)</customDrawSize>
+                    <customDrawSize>(3.6, 3.6)</customDrawSize>
                     <customPortraitDrawSize>(1.6, 1.6)</customPortraitDrawSize>
                     <customPortraitHeadDrawSize>(0.9, 0.9)</customPortraitHeadDrawSize>
-                    <customHeadDrawSize>(0.97, 0.97)</customHeadDrawSize>
+                    <customHeadDrawSize>(0.99, 0.99)</customHeadDrawSize>
                     <borderScale>4.0</borderScale>
                     <atlasScale>3</atlasScale>
 
@@ -203,26 +189,21 @@
             <lifeStageAges>
 				<!-- These Saffect stats and if your Race is ready to Lay eggs or be milked if you set that up in the LifeStage, it also determins when your Race is Sexualy Mature and can Reproduce which is not used by Humanlikes in Vanilla -->
                 <li Class="AlienRace.LifeStageAgeAlien">
-                        <def>HumanlikeBaby</def>
-                        <minAge>0</minAge>
-                        <customDrawSize>(0.7, 0.7)</customDrawSize>
-                        <customHeadDrawSize>(0.01, 0.01)</customHeadDrawSize>
-                </li>
-                <li Class="AlienRace.LifeStageAgeAlien">
-                        <def>HumanlikeBaby</def>
-                        <minAge>0</minAge>
-                        <customDrawSize>(0.7, 0.7)</customDrawSize>
+                    <def>HumanlikeBaby</def>
+                    <minAge>0</minAge>
+                    <customDrawSize>(1.4, 1.4)</customDrawSize>
+                    <customHeadDrawSize>(0.01, 0.01)</customHeadDrawSize>
                 </li>
                 <li Class="AlienRace.LifeStageAgeAlien">
                     <def>HumanlikeChild</def>
                     <minAge>1</minAge>
-                    <customDrawSize>(1, 1)</customDrawSize>
-                    <customHeadDrawSize>(0.01, 0.01)</customHeadDrawSize>
+                    <customDrawSize>(2.0, 2.0)</customDrawSize>
+                    <customHeadDrawSize>(0.57, 0.57)</customHeadDrawSize>
                 </li>
                 <li Class="AlienRace.LifeStageAgeAlien">
                     <def>HumanlikeTeenager</def>
                     <minAge>7</minAge>
-                    <customDrawSize>(1.5, 1.5)</customDrawSize>
+                    <customDrawSize>(3.0, 3.0)</customDrawSize>
                     <customHeadDrawSize>(0.85, 0.85)</customHeadDrawSize>
                 </li>
                 <li>
