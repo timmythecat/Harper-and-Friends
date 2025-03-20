@@ -113,8 +113,8 @@
                     </headTypes>
 
                     <customDrawSize>(3.6, 3.6)</customDrawSize>
-                    <customPortraitDrawSize>(1.6, 1.6)</customPortraitDrawSize>
-                    <customPortraitHeadDrawSize>(0.9, 0.9)</customPortraitHeadDrawSize>
+                    <customPortraitDrawSize>(3.2, 3.2)</customPortraitDrawSize>
+                    <customPortraitHeadDrawSize>(0.8, 0.8)</customPortraitHeadDrawSize>
                     <customHeadDrawSize>(0.99, 0.99)</customHeadDrawSize>
                     <borderScale>4.0</borderScale>
                     <atlasScale>3</atlasScale>

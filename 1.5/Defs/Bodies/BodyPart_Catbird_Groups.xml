@@ -85,7 +85,7 @@
     <!--<canSuggestAmputation>true</canSuggestAmputation>-->
   </BodyPartDef>
 
-  <BodyPartDef>
+  <!--<BodyPartDef>
     <defName>Hawkimport_Brain</defName>
     <label>brain</label>
     <hitPoints>15</hitPoints>
@@ -96,7 +96,7 @@
       <li>ConsciousnessSource</li>
     </tags>
     <canSuggestAmputation>false</canSuggestAmputation>
-  </BodyPartDef>
+  </BodyPartDef>-->
 
   <BodyPartDef>
     <defName>Hawkimport_Heart</defName>

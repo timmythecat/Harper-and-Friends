@@ -85,19 +85,19 @@
           <parts>
             <li>
               <def>Head</def>
-              <coverage>0.75</coverage>
+              <coverage>0.65</coverage>
               <groups>
                 <li>HeadAttackTool</li>
               </groups>
               <parts>
                 <li>
                   <def>Skull</def>
-                  <coverage>0.25</coverage>
+                  <coverage>0.45</coverage>
                   <depth>Inside</depth>
                   <parts>
                     <li>
-                      <def>Hawkimport_Brain</def>
-                      <coverage>0.5</coverage>
+                      <def>Brain</def>
+                      <coverage>0.2</coverage>
                       <depth>Inside</depth>
                     </li>
                   </parts>
