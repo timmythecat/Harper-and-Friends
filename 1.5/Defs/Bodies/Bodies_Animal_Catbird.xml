@@ -92,7 +92,7 @@
               <parts>
                 <li>
                   <def>Skull</def>
-                  <coverage>0.45</coverage>
+                  <coverage>0.40</coverage>
                   <depth>Inside</depth>
                   <parts>
                     <li>
@@ -124,7 +124,7 @@
                 </li>
                 <li>
                   <def>Beak</def>
-                  <coverage>0.25</coverage>
+                  <coverage>0.2</coverage>
                   <groups>
                     <li>Beak</li>
                   </groups>
