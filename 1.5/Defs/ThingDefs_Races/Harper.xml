@@ -132,7 +132,7 @@
                         <li>Female_AverageNormal</li>
                     </headTypes>
                     <headOffsetDirectional>
-                        <north>
+                        <!--<north>
                             <headTypes>
                                 <Male_AverageNormal>(0.0, 0.1)</Male_AverageNormal>
                                 <Female_AverageNormal>(0.0, 0.1)</Female_AverageNormal>
@@ -147,7 +147,7 @@
                                 <Male>(0.0, -0.4)</Male>
                                 <Female>(0.0, -0.4)</Female>
                             </bodyTypes>
-                        </south>
+                        </south>-->
                         <east>
                             <headTypes>
                                 <Male_AverageNormal>(0.6, 0.35)</Male_AverageNormal>
@@ -163,8 +163,8 @@
                     </headOffsetDirectional>
 
                     <customDrawSize>(2.4, 2.4)</customDrawSize>
-                    <customPortraitDrawSize>(1.4, 1.4)</customPortraitDrawSize>
-                    <customPortraitHeadDrawSize>(0.01, 0.01)</customPortraitHeadDrawSize>
+                    <customPortraitDrawSize>(1.9, 1.9)</customPortraitDrawSize>
+                    <customPortraitHeadDrawSize>(0.9, 0.9)</customPortraitHeadDrawSize>
                     <customHeadDrawSize>(1.2, 1.2)</customHeadDrawSize>
                     <borderScale>4.0</borderScale>
                     <atlasScale>3</atlasScale>
@@ -237,16 +237,18 @@
             <anomalyKnowledge>2</anomalyKnowledge>
 
             <lifeStageAges>
-				<!-- These Saffect stats and if your Race is ready to Lay eggs or be milked if you set that up in the LifeStage, it also determins when your Race is Sexualy Mature and can Reproduce which is not used by Humanlikes in Vanilla -->
+				<!-- These affect stats and if your Race is ready to Lay eggs or be milked if you set that up in the LifeStage, it also determins when your Race is Sexualy Mature and can Reproduce which is not used by Humanlikes in Vanilla -->
                 <li Class="AlienRace.LifeStageAgeAlien">
                         <def>HumanlikeBaby</def>
                         <minAge>0</minAge>
                         <customDrawSize>(1, 1)</customDrawSize>
+                        <customHeadDrawSize>(0.01, 0.01)</customHeadDrawSize>
                 </li>
                 <li Class="AlienRace.LifeStageAgeAlien">
                     <def>HumanlikeChild</def>
                     <minAge>3</minAge>
                     <customDrawSize>(1.6, 1.6)</customDrawSize>
+                    <customHeadDrawSize>(0.01, 0.01)</customHeadDrawSize>
                 </li>
                 <li Class="AlienRace.LifeStageAgeAlien">
                     <def>HumanlikeTeenager</def>
