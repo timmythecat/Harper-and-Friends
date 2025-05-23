@@ -82,7 +82,7 @@
       <li>MovingLimbCore</li>
       <li>ManipulationLimbCore</li>
     </tags>
-    <!--<canSuggestAmputation>true</canSuggestAmputation>-->
+    <canSuggestAmputation>true</canSuggestAmputation>
   </BodyPartDef>
 
   <!--<BodyPartDef>

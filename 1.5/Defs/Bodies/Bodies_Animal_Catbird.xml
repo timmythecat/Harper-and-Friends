@@ -22,17 +22,17 @@
       <parts>
         <li>
           <def>Tail</def>
-          <coverage>0.07</coverage>
+          <coverage>0.1</coverage>
         </li>
         <li>
           <def>Hawkimport_Wing</def>
           <customLabel>right wing</customLabel>
-          <coverage>0.09</coverage>
+          <coverage>0.1</coverage>
         </li>
         <li>
           <def>Hawkimport_Wing</def>
           <customLabel>left wing</customLabel>
-          <coverage>0.09</coverage>
+          <coverage>0.1</coverage>
         </li>
         <li>
           <def>Spine</def>
