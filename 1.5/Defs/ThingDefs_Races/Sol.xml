@@ -114,21 +114,11 @@
                         <li>Female_AverageNormal</li>
                     </headTypes>
                     <headOffsetDirectional>
-                        <north>
-                            <headTypes>
-                                <Male_AverageNormal>(0.0, 0.5)</Male_AverageNormal>
-                                <Female_AverageNormal>(0.0, 0.5)</Female_AverageNormal>
-                            </headTypes>
-                        </north>
                         <south>
                             <headTypes>
-                                <Male_AverageNormal>(0.0, 1.45)</Male_AverageNormal>
-                                <Female_AverageNormal>(0.0, 1.45)</Female_AverageNormal>
+                                <Male_AverageNormal>(0.0, 0.35)</Male_AverageNormal>
+                                <Female_AverageNormal>(0.0, 0.35)</Female_AverageNormal>
                             </headTypes>
-                            <bodyTypes>
-                                <Male>(0.0, -0.5)</Male>
-                                <Female>(0.0, -0.5)</Female>
-                            </bodyTypes>
                         </south>
                         <east>
                             <headTypes>
@@ -146,9 +136,9 @@
 
                     <headOffset>(0.0, -0.3)</headOffset>
                     <customDrawSize>(3, 3)</customDrawSize>
-                    <customPortraitDrawSize>(1.4, 1.4)</customPortraitDrawSize>
+                    <customPortraitDrawSize>(2.5, 2.5)</customPortraitDrawSize>
                     <customHeadDrawSize>(1.52, 1.52)</customHeadDrawSize>
-                    <customPortraitHeadDrawSize>(0.01, 0.01)</customPortraitHeadDrawSize>
+                    <customPortraitHeadDrawSize>(0.9, 0.9)</customPortraitHeadDrawSize>
                     <borderScale>5.0</borderScale>
                     <atlasScale>3</atlasScale>
 
