@@ -114,22 +114,16 @@
                         <li>Female_AverageNormal</li>
                     </headTypes>
                     <headOffsetDirectional>
-                        <south>
-                            <headTypes>
-                                <Male_AverageNormal>(0.0, 0.35)</Male_AverageNormal>
-                                <Female_AverageNormal>(0.0, 0.35)</Female_AverageNormal>
-                            </headTypes>
-                        </south>
                         <east>
                             <headTypes>
-                                <Male_AverageNormal>(0.85, 0.8)</Male_AverageNormal>
-                                <Female_AverageNormal>(0.85, 0.8)</Female_AverageNormal>
+                                <Male_AverageNormal>(0.78, 0.4)</Male_AverageNormal>
+                                <Female_AverageNormal>(0.78, 0.4)</Female_AverageNormal>
                             </headTypes>
                         </east>
                         <west>
                             <headTypes>
-                                <Male_AverageNormal>(-0.85, 0.8)</Male_AverageNormal>
-                                <Female_AverageNormal>(-0.85, 0.8)</Female_AverageNormal>
+                                <Male_AverageNormal>(-0.78, 0.4)</Male_AverageNormal>
+                                <Female_AverageNormal>(-0.78, 0.4)</Female_AverageNormal>
                             </headTypes>
                         </west>
                     </headOffsetDirectional>
