@@ -178,13 +178,13 @@
 			<leatherDef>Gryphon_Feather</leatherDef>
 			<nameCategory>HumanStandard</nameCategory>
 			<body>QuadrupedAnimalWithWingsAndBeak</body>
-			<baseBodySize>2.5</baseBodySize>
+			<baseBodySize>3</baseBodySize>
 			<baseHealthScale>4</baseHealthScale>
 			<foodType>CarnivoreAnimal, OmnivoreHuman</foodType>
             <baseHungerRate>0.40</baseHungerRate>
 			<gestationPeriodDays>20</gestationPeriodDays>
 			<meatMarketValue>0.5</meatMarketValue>
-			<manhunterOnDamageChance>1.2</manhunterOnDamageChance>
+			<manhunterOnDamageChance>1.0</manhunterOnDamageChance>
 			<manhunterOnTameFailChance>0.5</manhunterOnTameFailChance>
 
             <renderTree>Humanlike</renderTree>
@@ -281,7 +281,7 @@
 
         <statBases>
             <MarketValue>2000</MarketValue>
-            <ArmorRating_Blunt>1.2</ArmorRating_Blunt>
+            <ArmorRating_Blunt>1.3</ArmorRating_Blunt>
             <ArmorRating_Sharp>0.6</ArmorRating_Sharp>
             <ArmorRating_Heat>0.6</ArmorRating_Heat>
             <MoveSpeed>7</MoveSpeed>

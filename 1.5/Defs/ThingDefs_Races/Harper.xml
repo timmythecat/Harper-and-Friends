@@ -191,11 +191,11 @@
 			<leatherDef>Feather_Harper</leatherDef>
 			<nameCategory>HumanStandard</nameCategory>
 			<body>QuadrupedAnimalWithWingsAndBeak</body>
-			<baseBodySize>4</baseBodySize>
+			<baseBodySize>5</baseBodySize>
 			<baseHealthScale>6</baseHealthScale>
 			<foodType>CarnivoreAnimal, OmnivoreHuman</foodType>
-            <baseHungerRate>0.50</baseHungerRate>
-			<gestationPeriodDays>25</gestationPeriodDays>
+            <baseHungerRate>0.55</baseHungerRate>
+			<gestationPeriodDays>20</gestationPeriodDays>
 			<meatMarketValue>0.1</meatMarketValue>
 			<manhunterOnDamageChance>1.2</manhunterOnDamageChance>
 			<manhunterOnTameFailChance>0.5</manhunterOnTameFailChance>
@@ -297,15 +297,15 @@
             <MarketValue>4000</MarketValue>
             <ArmorRating_Blunt>1.2</ArmorRating_Blunt>
             <ArmorRating_Sharp>0.6</ArmorRating_Sharp>
-            <ArmorRating_Heat>2</ArmorRating_Heat>
+            <ArmorRating_Heat>3</ArmorRating_Heat>
             <MoveSpeed>8.5</MoveSpeed>
             <ComfyTemperatureMin>-40</ComfyTemperatureMin>
-			<ComfyTemperatureMax>150</ComfyTemperatureMax>
+			<ComfyTemperatureMax>200</ComfyTemperatureMax>
             <LeatherAmount>30</LeatherAmount>
 			<RoyalFavorValue>2</RoyalFavorValue>
-            <Flammability>0.05</Flammability>
+            <Flammability>0.01</Flammability>
             <ImmunityGainSpeed>1.8</ImmunityGainSpeed>
-            <FoodPoisonChance>0.7</FoodPoisonChance>
+            <FoodPoisonChance>0.6</FoodPoisonChance>
             <MentalBreakThreshold>0.3</MentalBreakThreshold>
             <CarryingCapacity>100</CarryingCapacity>
         </statBases>
@@ -376,7 +376,7 @@
                     <kindDefs>
                         <li>Harper_SpaceRefugee</li>
                     </kindDefs>
-                    <chance>30.0</chance>
+                    <chance>20.0</chance>
                 </li>
             </alienrefugeekinds>
         </pawnKindSettings>

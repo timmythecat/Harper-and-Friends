@@ -179,11 +179,11 @@
 			<leatherDef>Feather_Sol</leatherDef>
 			<nameCategory>HumanStandard</nameCategory>
 			<body>QuadrupedAnimalWithWingsAndBeak</body>
-			<baseBodySize>6</baseBodySize>
-            <baseHungerRate>0.60</baseHungerRate>
+			<baseBodySize>7</baseBodySize>
+            <baseHungerRate>0.65</baseHungerRate>
 			<baseHealthScale>8</baseHealthScale>
 			<foodType>OmnivoreHuman</foodType>
-			<gestationPeriodDays>25</gestationPeriodDays>
+			<gestationPeriodDays>20</gestationPeriodDays>
 			<meatMarketValue>0.1</meatMarketValue>
 			<manhunterOnDamageChance>1.2</manhunterOnDamageChance>
 			<manhunterOnTameFailChance>0.5</manhunterOnTameFailChance>
@@ -280,7 +280,7 @@
 
         <statBases>
             <MarketValue>5000</MarketValue>
-            <ArmorRating_Blunt>1.2</ArmorRating_Blunt>
+            <ArmorRating_Blunt>1.4</ArmorRating_Blunt>
             <ArmorRating_Sharp>0.6</ArmorRating_Sharp>
             <ArmorRating_Heat>0.8</ArmorRating_Heat>
             <MoveSpeed>10</MoveSpeed>
@@ -290,7 +290,7 @@
 			<RoyalFavorValue>2</RoyalFavorValue>
             <Flammability>0.3</Flammability>
             <ImmunityGainSpeed>1.5</ImmunityGainSpeed>
-            <FoodPoisonChance>0.7</FoodPoisonChance>
+            <FoodPoisonChance>0.6</FoodPoisonChance>
             <MentalBreakThreshold>0.35</MentalBreakThreshold>
             <CarryingCapacity>100</CarryingCapacity>
         </statBases>
@@ -361,7 +361,7 @@
                     <kindDefs>
                         <li>Sol_SpaceRefugee</li>
                     </kindDefs>
-                    <chance>30.0</chance>
+                    <chance>20.0</chance>
                 </li>
             </alienrefugeekinds>
         </pawnKindSettings>
