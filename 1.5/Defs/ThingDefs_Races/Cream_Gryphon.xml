@@ -364,7 +364,7 @@
                             <kindDefs>
                                 <li>CreamGryphon_Colonist</li>
                             </kindDefs>
-                            <chance>10.0</chance>
+                            <chance>20.0</chance>
                         </li>
                     </pawnKindEntries>
                     <factionDefs>
@@ -403,7 +403,7 @@
                     <kindDefs>
                         <li>CreamGryph_Slave</li>
                     </kindDefs>
-                    <chance>80.0</chance>
+                    <chance>60.0</chance>
                 </li>
             </alienslavekinds>
         </pawnKindSettings>
