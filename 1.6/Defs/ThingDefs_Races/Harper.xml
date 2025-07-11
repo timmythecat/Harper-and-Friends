@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
     <AlienRace.ThingDef_AlienRace ParentName="BasePawn">
-        <defName>cream_gryphon</defName>
-        <label>Cream Gryphon</label>
-        <description>A common cream colored gryphon (as a pawn)</description>
+        <defName>charred_raven_gryphon</defName>
+        <label>Charred Raven Gryphon</label>
+        <description>Adds Harper to Rimworld</description>
 
         <alienRace>
             <graphicPaths>
                 <body>
-                    <path>CommonGryphon/Body/</path>
+                    <path>Harper/Body/</path>
                 </body>
                 <head>
-                    <path>CommonGryphon/Heads/</path>
+                    <path>Harper/Heads/</path>
                 </head>
                 <skeleton>
                     <path>Sol/Dessicated/Dessicated_Solstice_east</path>
@@ -24,35 +24,35 @@
             </graphicPaths> 
 
             <styleSettings>
-                <li>
-                    <key>HairDef</key>
-                    <value>
-                        <hasStyle>false</hasStyle>
-                    </value>
-                </li>
-                <li>
-                    <key>BeardDef</key>
-                    <value>
-                        <hasStyle>false</hasStyle>
-                    </value>
-                </li>
-                <li>
-                    <key>TattooDef</key>
-                    <value>
-                        <hasStyle>false</hasStyle>
-                    </value>
-                </li>
-            </styleSettings>
+                    <li>
+                        <key>HairDef</key>
+                        <value>
+                            <hasStyle>false</hasStyle>
+                        </value>
+                    </li>
+                    <li>
+                        <key>BeardDef</key>
+                        <value>
+                            <hasStyle>false</hasStyle>
+                        </value>
+                    </li>
+                    <li>
+                        <key>TattooDef</key>
+                        <value>
+                            <hasStyle>false</hasStyle>
+                        </value>
+                    </li>
+                </styleSettings>
 
             <generalSettings>
-                <maleGenderProbability>0.5</maleGenderProbability>
+                <maleGenderProbability>0.65</maleGenderProbability>
                 <immuneToAge>false</immuneToAge>
-                <minAgeForAdulthood>10</minAgeForAdulthood>
+                <minAgeForAdulthood>12</minAgeForAdulthood>
                 <allowHumanBios>true</allowHumanBios>
 
                 <canLayDown>true</canLayDown>
 
-                <maxDamageForSocialfight>10</maxDamageForSocialfight>
+                <maxDamageForSocialfight>15</maxDamageForSocialfight>
 
                 <lovinIntervalHoursFromAge>
                     <points>
@@ -65,13 +65,12 @@
                 </lovinIntervalHoursFromAge>
 
                 <growthAges>
-                    <li>1</li>
                     <li>3</li>
                     <li>7</li>
                     <li>10</li>
+                    <li>12</li>
                 </growthAges>
 
-                
                 <disallowedTraits>
                     <li>
                         <defName>Psychopath</defName>
@@ -86,10 +85,11 @@
                 </raceGenes>
 
                 <reproduction>
+                    <!-- Reproduction settings are listed here -->
                     <femaleFertilityAgeFactor>
                         <points>
-                            <li>(12, 0)</li>
-                            <li>(14, 1)</li>
+                            <li>(16, 0)</li>
+                            <li>(20, 1)</li>
                             <li>(28, 1)</li>
                             <li>(40, 0.8)</li>
                             <li>(45, 0)</li>
@@ -98,12 +98,25 @@
 
                     <maleFertilityAgeFactor>
                         <points>
-                            <li>(12, 0)</li>
-                            <li>(14, 1)</li>
+                            <li>(16, 0)</li>
+                            <li>(18, 1)</li>
                             <li>(40, 1)</li>
                             <li>(50, 0)</li>
                         </points>
                     </maleFertilityAgeFactor>
+
+                    <hybridSpecific>
+                        <li>
+                            <partnerRace>saberbeak_gryphon</partnerRace>
+                            <probability>50</probability>
+                            <childKindDef>HarperColonist</childKindDef>
+                        </li>
+                        <li>
+                            <partnerRace>saberbeak_gryphon</partnerRace>
+                            <probability>50</probability>
+                            <childKindDef>SolColonist</childKindDef>
+                        </li>
+                    </hybridSpecific>
                 </reproduction>
 
                 <alienPartGenerator>
@@ -119,10 +132,10 @@
                         <li>Female_AverageNormal</li>
                     </headTypes>
 
-                    <customDrawSize>(3.6, 3.6)</customDrawSize>
-                    <customPortraitDrawSize>(3.4, 3.4)</customPortraitDrawSize>
-                    <customPortraitHeadDrawSize>(0.9, 0.9)</customPortraitHeadDrawSize>
-                    <customHeadDrawSize>(0.99, 0.99)</customHeadDrawSize>
+                    <customDrawSize>(2.4, 2.4)</customDrawSize>
+                    <customPortraitDrawSize>(2.0, 2.0)</customPortraitDrawSize>
+                    <customPortraitHeadDrawSize>(1.7, 1.7)</customPortraitHeadDrawSize>
+                    <customHeadDrawSize>(2.0, 2.0)</customHeadDrawSize>
                     <borderScale>4.0</borderScale>
                     <atlasScale>3</atlasScale>
 
@@ -174,17 +187,17 @@
 			<thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
 			<intelligence>Humanlike</intelligence>
 			<makesFootprints>true</makesFootprints>
-			<lifeExpectancy>60</lifeExpectancy>
-			<leatherDef>Gryphon_Feather</leatherDef>
+			<lifeExpectancy>70</lifeExpectancy>
+			<leatherDef>Feather_Harper</leatherDef>
 			<nameCategory>HumanStandard</nameCategory>
 			<body>QuadrupedAnimalWithWingsAndBeak</body>
-			<baseBodySize>3</baseBodySize>
-			<baseHealthScale>4</baseHealthScale>
+			<baseBodySize>5</baseBodySize>
+			<baseHealthScale>6</baseHealthScale>
 			<foodType>CarnivoreAnimal, OmnivoreHuman</foodType>
-            <baseHungerRate>0.40</baseHungerRate>
+            <baseHungerRate>0.55</baseHungerRate>
 			<gestationPeriodDays>20</gestationPeriodDays>
-			<meatMarketValue>0.5</meatMarketValue>
-			<manhunterOnDamageChance>1.0</manhunterOnDamageChance>
+			<meatMarketValue>0.1</meatMarketValue>
+			<manhunterOnDamageChance>1.2</manhunterOnDamageChance>
 			<manhunterOnTameFailChance>0.5</manhunterOnTameFailChance>
 
             <renderTree>Humanlike</renderTree>
@@ -194,24 +207,23 @@
             <anomalyKnowledge>2</anomalyKnowledge>
 
             <lifeStageAges>
-				<!-- These Saffect stats and if your Race is ready to Lay eggs or be milked if you set that up in the LifeStage, it also determins when your Race is Sexualy Mature and can Reproduce which is not used by Humanlikes in Vanilla -->
+				<!-- These affect stats and if your Race is ready to Lay eggs or be milked if you set that up in the LifeStage, it also determins when your Race is Sexualy Mature and can Reproduce which is not used by Humanlikes in Vanilla -->
                 <li Class="AlienRace.LifeStageAgeAlien">
-                    <def>HumanlikeBaby</def>
-                    <minAge>0</minAge>
-                    <customDrawSize>(1.4, 1.4)</customDrawSize>
-                    <customHeadDrawSize>(0.01, 0.01)</customHeadDrawSize>
+                        <def>HumanlikeBaby</def>
+                        <minAge>0</minAge>
+                        <customDrawSize>(1, 1)</customDrawSize>
+                        <customHeadDrawSize>(0.01, 0.01)</customHeadDrawSize>
                 </li>
                 <li Class="AlienRace.LifeStageAgeAlien">
                     <def>HumanlikeChild</def>
-                    <minAge>1</minAge>
-                    <customDrawSize>(2.0, 2.0)</customDrawSize>
-                    <customHeadDrawSize>(0.57, 0.57)</customHeadDrawSize>
+                    <minAge>3</minAge>
+                    <customDrawSize>(1.6, 1.6)</customDrawSize>
+                    <customHeadDrawSize>(0.01, 0.01)</customHeadDrawSize>
                 </li>
                 <li Class="AlienRace.LifeStageAgeAlien">
                     <def>HumanlikeTeenager</def>
                     <minAge>7</minAge>
-                    <customDrawSize>(3.0, 3.0)</customDrawSize>
-                    <customHeadDrawSize>(0.85, 0.85)</customHeadDrawSize>
+                    <customDrawSize>(2, 2)</customDrawSize>
                 </li>
                 <li>
                     <def>HumanlikeAdult</def>
@@ -219,8 +231,8 @@
                 </li>
             </lifeStageAges>
           
-            <soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
-			<soundMeleeHitBuilding>Pawn_Melee_Punch_HitPawn</soundMeleeHitBuilding>
+            <soundMeleeHitPawn>Harper_Call</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Harper_Call</soundMeleeHitBuilding>
 			<soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
 			<soundMeleeDodge>Pawn_MeleeDodge</soundMeleeDodge>
 
@@ -236,12 +248,13 @@
             <ageGenerationCurve>
                 <points>
                     <li MayRequire="Ludeon.RimWorld.Biotech">(0,0)</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">(0.1,10)</li>
 					<li MayRequire="Ludeon.RimWorld.Biotech">(0.9,30)</li>
-					<li MayRequire="Ludeon.RimWorld.Biotech">(1.5,80)</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">(1.5,100)</li>
 					<li MayRequire="Ludeon.RimWorld.Biotech">(2.9,0)</li>
                     <li MayRequire="Ludeon.RimWorld.Biotech">(3,0)</li>
                     <li MayRequire="Ludeon.RimWorld.Biotech">(3.1,0)</li>
-                    <li MayRequire="Ludeon.RimWorld.Biotech">(3.5,80)</li>
+                    <li MayRequire="Ludeon.RimWorld.Biotech">(3.5,100)</li>
                     <li MayRequire="Ludeon.RimWorld.Biotech">(8,100)</li>
                     <li>(12,0)</li>
                     <li>(15,100)</li>
@@ -249,14 +262,15 @@
                     <li>(35,30)</li>
                     <li>(40,18)</li>
                     <li>(45,10)</li>
-                    <li>(50,0)</li>
+                    <li>(50,3)</li>
+                    <li>(60,0)</li>
                 </points>
             </ageGenerationCurve>
         </race>
 
         <comps>
             <li Class="HarperAndFriends.CompProperties_Preenable">
-                <featherDef>Gryphon_Feather</featherDef>
+                <featherDef>Feather_Harper</featherDef>
                 <featherIntervalDays>7</featherIntervalDays>
                 <featherAmount>10</featherAmount>
                 <minAge>7</minAge>
@@ -280,20 +294,21 @@
         </recipes>
 
         <statBases>
-            <MarketValue>2000</MarketValue>
-            <ArmorRating_Blunt>1.3</ArmorRating_Blunt>
+            <MarketValue>4000</MarketValue>
+            <ArmorRating_Blunt>1.2</ArmorRating_Blunt>
             <ArmorRating_Sharp>0.6</ArmorRating_Sharp>
-            <ArmorRating_Heat>0.6</ArmorRating_Heat>
-            <MoveSpeed>7</MoveSpeed>
-            <ComfyTemperatureMin>-25</ComfyTemperatureMin>
-			<ComfyTemperatureMax>50</ComfyTemperatureMax>
-            <LeatherAmount>20</LeatherAmount>
+            <ArmorRating_Heat>3</ArmorRating_Heat>
+            <MoveSpeed>8.5</MoveSpeed>
+            <ComfyTemperatureMin>-40</ComfyTemperatureMin>
+			<ComfyTemperatureMax>200</ComfyTemperatureMax>
+            <LeatherAmount>30</LeatherAmount>
 			<RoyalFavorValue>2</RoyalFavorValue>
-            <Flammability>0.4</Flammability>
-            <ImmunityGainSpeed>1.4</ImmunityGainSpeed>
-            <FoodPoisonChance>0.8</FoodPoisonChance>
+            <Flammability>0.01</Flammability>
+            <ImmunityGainSpeed>1.8</ImmunityGainSpeed>
+            <FoodPoisonChance>0.6</FoodPoisonChance>
             <MentalBreakThreshold>0.3</MentalBreakThreshold>
             <CarryingCapacity>100</CarryingCapacity>
+            <VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">0.2</VacuumResistance>
         </statBases>
 
         <tools Inherit="False">
@@ -302,14 +317,14 @@
 			    <capacities>
 				    <li>Scratch</li>
 			    </capacities>
-			    <power>15</power>
+			    <power>20</power>
 			    <cooldownTime>1.5</cooldownTime>
 			    <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
                 <surpriseAttack>
                     <extraMeleeDamages>
                         <li>
                             <def>Stun</def>
-                            <amount>10</amount>
+                            <amount>14</amount>
                         </li>
                     </extraMeleeDamages>
                 </surpriseAttack>
@@ -320,32 +335,32 @@
                 <capacities>
                     <li>Scratch</li>
                 </capacities>
-                <power>15</power>
+                <power>20</power>
                 <cooldownTime>1.5</cooldownTime>
                 <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
                 <surpriseAttack>
                     <extraMeleeDamages>
                         <li>
                             <def>Stun</def>
-                            <amount>10</amount>
+                            <amount>14</amount>
                         </li>
                     </extraMeleeDamages>
                 </surpriseAttack>
             </li>
 
             <li>
-                <label>Bite</label>
+                <label>Fire bite</label>
                 <capacities>
-                    <li>Stab</li>
+                    <li>Firey_Bite</li>
                 </capacities>
-                <power>30</power>
+                <power>40</power>
                 <cooldownTime>3.5</cooldownTime>
                 <linkedBodyPartsGroup>Beak</linkedBodyPartsGroup>
                 <surpriseAttack>
                     <extraMeleeDamages>
                         <li>
                             <def>Stun</def>
-                            <amount>15</amount>
+                            <amount>20</amount>
                         </li>
                     </extraMeleeDamages>
                 </surpriseAttack>
@@ -354,58 +369,17 @@
     </AlienRace.ThingDef_AlienRace>
 
     <AlienRace.RaceSettings>
-        <defName>CreamGryph_RaceSettings</defName>
-        
+        <defName>Harper_RaceSettings</defName>
+
         <pawnKindSettings>
-            <startingColonists>
-                <li>
-                    <pawnKindEntries>
-                        <li>
-                            <kindDefs>
-                                <li>CreamGryphon_Colonist</li>
-                            </kindDefs>
-                            <chance>20.0</chance>
-                        </li>
-                    </pawnKindEntries>
-                    <factionDefs>
-                        <li>PlayerColony</li> 
-                    </factionDefs>
-                </li>
-            </startingColonists>
-
-            <alienwandererkinds>
-                <li>
-                    <pawnKindEntries>
-                    <li>
-                        <kindDefs>
-                            <li>CreamGryph_Villager</li>
-                        </kindDefs>
-                        <chance>100.0</chance>
-                    </li>
-                    </pawnKindEntries>
-                    <factionDefs>
-                        <li>PlayerColony</li> 
-                    </factionDefs>
-                </li>
-            </alienwandererkinds>
-
             <alienrefugeekinds>
                 <li>
                     <kindDefs>
-                        <li>CreamGryphon_SpaceRefugee</li>
+                        <li>Harper_SpaceRefugee</li>
                     </kindDefs>
-                    <chance>80.0</chance>
+                    <chance>20.0</chance>
                 </li>
             </alienrefugeekinds>
-
-            <alienslavekinds>
-                <li>
-                    <kindDefs>
-                        <li>CreamGryph_Slave</li>
-                    </kindDefs>
-                    <chance>60.0</chance>
-                </li>
-            </alienslavekinds>
         </pawnKindSettings>
     </AlienRace.RaceSettings>
 </Defs>

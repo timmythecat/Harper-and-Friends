@@ -81,7 +81,11 @@
                 <raceGenes>
                     <li>
                         <defName>Gryphon_Skin</defName>
-                        <chance>100</chance>
+                        <chance>80</chance>
+                    </li>
+                    <li>
+                        <defName>Gryphon_Skin_Dark</defName>
+                        <chance>80</chance>
                     </li>
                 </raceGenes>
 
@@ -294,6 +298,7 @@
             <FoodPoisonChance>0.8</FoodPoisonChance>
             <MentalBreakThreshold>0.3</MentalBreakThreshold>
             <CarryingCapacity>100</CarryingCapacity>
+            <VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">0.2</VacuumResistance>
         </statBases>
 
         <tools Inherit="False">

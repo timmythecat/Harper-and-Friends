@@ -56,8 +56,8 @@
     </skillRequirements>
     <jobString>Installing bionic gryphon heart.</jobString>
     <recipeUsers>
-        <li>harperRace</li>
-        <li>SolRace</li>
+        <li>charred_raven_gryphon</li>
+        <li>saberbeak_gryphon</li>
         <li>cream_gryphon</li>
     </recipeUsers>
     <ingredients>
@@ -98,6 +98,7 @@
         <li>
           <statOffsets>
             <ToxicEnvironmentResistance>0.25</ToxicEnvironmentResistance>
+            <VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">0.1</VacuumResistance>
           </statOffsets>
         </li>
       </stages>
@@ -134,8 +135,8 @@
     </skillRequirements>
     <jobString>Installing bionic gryphon lung.</jobString>
     <recipeUsers>
-        <li>harperRace</li>
-        <li>SolRace</li>
+        <li>charred_raven_gryphon</li>
+        <li>saberbeak_gryphon</li>
         <li>cream_gryphon</li>
     </recipeUsers>
     <ingredients>
@@ -161,24 +162,24 @@
 
   <!--Kidney-->
   <HediffDef ParentName="AddedBodyPartBase">
-      <defName>BionicGryphKidney</defName>
-      <label>bionic gryphon kidney</label>
-      <labelNoun>a bionic gryphon kidney</labelNoun>
-      <description>This gryph seems to be slightly less gryph. An installed kidney</description>
-      <descriptionHyperlinks><ThingDef>BionicGryphKidney</ThingDef></descriptionHyperlinks>
-      <spawnThingOnRemoved>BionicGryphKidney</spawnThingOnRemoved>
-      <addedPartProps>
-          <solid>true</solid>
-          <partEfficiency>1.5</partEfficiency>
+    <defName>BionicGryphKidney</defName>
+    <label>bionic gryphon kidney</label>
+    <labelNoun>a bionic gryphon kidney</labelNoun>
+    <description>This gryph seems to be slightly less gryph. An installed kidney</description>
+    <descriptionHyperlinks><ThingDef>BionicGryphKidney</ThingDef></descriptionHyperlinks>
+    <spawnThingOnRemoved>BionicGryphKidney</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.5</partEfficiency>
       <betterThanNatural>true</betterThanNatural>
-      </addedPartProps>
-      <stages>
-        <li>
-          <statOffsets>
-            <ToxicEnvironmentResistance>0.05</ToxicEnvironmentResistance>
-          </statOffsets>
-        </li>
-      </stages>
+    </addedPartProps>
+    <stages>
+      <li>
+        <statOffsets>
+          <ToxicEnvironmentResistance>0.05</ToxicEnvironmentResistance>
+        </statOffsets>
+      </li>
+    </stages>
   </HediffDef>
 
   <ThingDef ParentName="BodyPartBionicBase">
@@ -212,8 +213,8 @@
     </skillRequirements>
     <jobString>Installing bionic gryphon kidney.</jobString>
     <recipeUsers>
-        <li>harperRace</li>
-        <li>SolRace</li>
+        <li>charred_raven_gryphon</li>
+        <li>saberbeak_gryphon</li>
         <li>cream_gryphon</li>
     </recipeUsers>
     <ingredients>
@@ -253,9 +254,9 @@
         </li>
       </stages>
       <addedPartProps>
-          <solid>true</solid>
-          <partEfficiency>1.4</partEfficiency>
-      <betterThanNatural>true</betterThanNatural>
+        <solid>true</solid>
+        <partEfficiency>1.4</partEfficiency>
+        <betterThanNatural>true</betterThanNatural>
       </addedPartProps>
   </HediffDef>
 
@@ -290,8 +291,8 @@
     </skillRequirements>
     <jobString>Installing bionic gryphon eye.</jobString>
     <recipeUsers>
-        <li>harperRace</li>
-        <li>SolRace</li>
+        <li>charred_raven_gryphon</li>
+        <li>saberbeak_gryphon</li>
         <li>cream_gryphon</li>
     </recipeUsers>
     <ingredients>
@@ -315,28 +316,108 @@
     <addsHediff>BionicGryphEye</addsHediff>
   </RecipeDef>
 
-<!--Wing-->
-    <HediffDef ParentName="AddedBodyPartBase">
-      <defName>BionicGryphWing</defName>
-      <label>bionic gryphon wing</label>
-      <labelNoun>a bionic gryphon wing</labelNoun>
-      <description>This wing is designed to allow feathers to be inserted into slots making it appear as if its a normal wing.</description>
-      <descriptionHyperlinks><ThingDef>BionicGryphWing</ThingDef></descriptionHyperlinks>
-      <spawnThingOnRemoved>BionicGryphWing</spawnThingOnRemoved>
-      <stages>
-        <li>
-          <statOffsets>
-            <MeleeDodgeChance>5</MeleeDodgeChance>
-            <HackingSpeed>0.1</HackingSpeed>
-            <CrawlSpeed>1</CrawlSpeed>
-          </statOffsets>
-        </li>
-      </stages>
-      <addedPartProps>
-          <solid>true</solid>
-          <partEfficiency>1.6</partEfficiency>
+<!--Spine-->
+<HediffDef ParentName="AddedBodyPartBase">
+    <defName>BionicGryphSpine</defName>
+    <label>bionic gryphon spine</label>
+    <labelNoun>a bionic gryphon spine</labelNoun>
+    <description>This gryph seems to be slightly less gryph. An installed spine. this spine contains a little power</description>
+    <descriptionHyperlinks><ThingDef>BionicGryphSpine</ThingDef></descriptionHyperlinks>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.3</partEfficiency>
       <betterThanNatural>true</betterThanNatural>
-      </addedPartProps>
+    </addedPartProps>
+    <stages>
+      <li>
+        <statOffsets>
+          <VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">0.2</VacuumResistance>
+          <MechRemoteShieldEnergy MayRequire="Ludeon.RimWorld.Biotech">1</MechRemoteShieldEnergy>
+          <MechBandwidth MayRequire="Ludeon.RimWorld.Biotech">1</MechBandwidth>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <ThingDef ParentName="BodyPartBionicBase">
+    <defName>BionicGryphSpine</defName>
+    <label>bionic gryphon spine</label>
+    <description>An advanced artificial gryphon spine. A biogel nerve bundle runs down an articulated plasteel core, surrounded by a lattice-dust healing system. It seem to pontain just a little power.</description>
+    <descriptionHyperlinks><RecipeDef>InstallBionicGryphKidney</RecipeDef></descriptionHyperlinks>
+    <statBases>
+        <MarketValue>1200</MarketValue>
+        <MaxHitPoints>100</MaxHitPoints>
+        <Mass>6</Mass>
+        <ArmorRating_Sharp>2</ArmorRating_Sharp>
+	      <ArmorRating_Blunt>1</ArmorRating_Blunt>
+    </statBases>
+    <costList>
+      <Plasteel>18</Plasteel>
+      <ComponentSpacer>4</ComponentSpacer>
+    </costList>
+  </ThingDef>
+
+  <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+    <defName>InstallBionicGryphSpine</defName>
+    <label>install bionic gryphon spine</label>
+    <description>Install a bionic gryphon spine.</description>
+    <descriptionHyperlinks>
+      <ThingDef>BionicGryphSpine</ThingDef>
+      <HediffDef>BionicGryphSpine</HediffDef>
+    </descriptionHyperlinks>
+    <skillRequirements>
+        <Medicine>8</Medicine>
+    </skillRequirements>
+    <jobString>Installing bionic gryphon spine.</jobString>
+    <recipeUsers>
+        <li>charred_raven_gryphon</li>
+        <li>saberbeak_gryphon</li>
+        <li>cream_gryphon</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>BionicGryphSpine</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>BionicGryphSpine</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Hawkimport_Spine</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>BionicGryphSpine</addsHediff>
+  </RecipeDef>
+
+<!--Wing-->
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>BionicGryphWing</defName>
+    <label>bionic gryphon wing</label>
+    <labelNoun>a bionic gryphon wing</labelNoun>
+    <description>This wing is designed to allow feathers to be inserted into slots making it appear as if its a normal wing.</description>
+    <descriptionHyperlinks><ThingDef>BionicGryphWing</ThingDef></descriptionHyperlinks>
+    <spawnThingOnRemoved>BionicGryphWing</spawnThingOnRemoved>
+    <stages>
+      <li>
+        <statOffsets>
+          <MeleeDodgeChance>5</MeleeDodgeChance>
+          <HackingSpeed>0.1</HackingSpeed>
+          <CrawlSpeed>1</CrawlSpeed>
+          <VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">0.1</VacuumResistance>
+        </statOffsets>
+      </li>
+    </stages>
+    <addedPartProps>
+        <solid>true</solid>
+        <partEfficiency>1.6</partEfficiency>
+    <betterThanNatural>true</betterThanNatural>
+    </addedPartProps>
   </HediffDef>
 
   <ThingDef ParentName="BodyPartBionicBase">
@@ -370,9 +451,9 @@
     </skillRequirements>
     <jobString>Installing bionic gryphon Wing.</jobString>
     <recipeUsers>
-        <li>harperRace</li>
-        <li>SolRace</li>
-        <li>cream_gryphon</li>
+      <li>charred_raven_gryphon</li>
+      <li>saberbeak_gryphon</li>
+      <li>cream_gryphon</li>
     </recipeUsers>
     <ingredients>
       <li>

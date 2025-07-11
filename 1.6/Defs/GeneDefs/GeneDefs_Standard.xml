@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <GeneDef ParentName="GeneSkinColorOverride">
+        <displayCategory>Gryhpon</displayCategory>
+        <defName>Gryphon_Skin</defName>
+        <label>gryphon skin</label>
+        <description>Just a copy of Sheer white skin, but made a replacement just for gryphons to display properly</description>
+        <skinColorOverride>(250, 240, 240)</skinColorOverride>
+        <randomBrightnessFactor>0</randomBrightnessFactor>
+        <displayOrderInCategory>1</displayOrderInCategory>
+    </GeneDef>
+
+    <GeneDef ParentName="GeneSkinColorOverride">
+        <displayCategory>Gryhpon</displayCategory>
+        <defName>Gryphon_Skin_Dark</defName>
+        <label>gryphon skin dark</label>
+        <description>Just a copy of Sheer Grey skin, but made a replacement just for gryphons to display properly</description>
+        <skinColorOverride>(180, 170, 170)</skinColorOverride>
+        <randomBrightnessFactor>0</randomBrightnessFactor>
+        <displayOrderInCategory>2</displayOrderInCategory>
+    </GeneDef>
+</Defs>

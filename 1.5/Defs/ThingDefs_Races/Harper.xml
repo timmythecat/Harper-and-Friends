@@ -45,7 +45,7 @@
                 </styleSettings>
 
             <generalSettings>
-                <maleGenderProbability>0.7</maleGenderProbability>
+                <maleGenderProbability>0.65</maleGenderProbability>
                 <immuneToAge>false</immuneToAge>
                 <minAgeForAdulthood>12</minAgeForAdulthood>
                 <allowHumanBios>true</allowHumanBios>
@@ -164,10 +164,10 @@
                 <onlyUseRaceRestrictedXenotypes>true</onlyUseRaceRestrictedXenotypes>
 
                 <whiteApparelList>
-                     <li>Apparel_PackControl</li>
-                     <li>Apparel_ArrayHeadset</li>
-                     <li>Apparel_AirwireHeadset</li>
-                     <li>Apparel_IntegratorHeadset</li>
+                     <li MayRequire="Ludeon.RimWorld.Biotech">Apparel_PackControl</li>
+                     <li MayRequire="Ludeon.RimWorld.Biotech">Apparel_ArrayHeadset</li>
+                     <li MayRequire="Ludeon.RimWorld.Biotech">Apparel_AirwireHeadset</li>
+                     <li MayRequire="Ludeon.RimWorld.Biotech">Apparel_IntegratorHeadset</li>
                 </whiteApparelList>
 
                 <geneList>
