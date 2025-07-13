@@ -73,7 +73,7 @@
     </comps>
     <rotatable>true</rotatable>
     <costList>
-		  <Gryphon_Feather>150</Gryphon_Feather>
+		  <Gryphon_Feather>120</Gryphon_Feather>
 	  </costList>
     <statBases>
       <MaxHitPoints>600</MaxHitPoints>
@@ -91,13 +91,12 @@
       <li>Leathery</li>
     </stuffCategories>
     <researchPrerequisites>
-      <li>ComplexFurniture</li>
+      <li>GryphonFurniture</li>
     </researchPrerequisites>
-    <costStuffCount>100</costStuffCount>
+    <costStuffCount>80</costStuffCount>
     <size>(2,2)</size>
     <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
     <leaveResourcesWhenKilled>True</leaveResourcesWhenKilled>
-    <techLevel>Industrial</techLevel>
     <designationHotKey>Misc3</designationHotKey>
     <building>
        <bed_healPerDay>6</bed_healPerDay>

@@ -81,11 +81,11 @@
                 <raceGenes>
                     <li>
                         <defName>Gryphon_Skin</defName>
-                        <chance>80</chance>
+                        <chance>60</chance>
                     </li>
                     <li>
                         <defName>Gryphon_Skin_Dark</defName>
-                        <chance>80</chance>
+                        <chance>60</chance>
                     </li>
                 </raceGenes>
 
@@ -308,7 +308,7 @@
 				    <li>Scratch</li>
 			    </capacities>
 			    <power>15</power>
-			    <cooldownTime>1.5</cooldownTime>
+			    <cooldownTime>1.2</cooldownTime>
 			    <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
                 <surpriseAttack>
                     <extraMeleeDamages>
@@ -326,7 +326,7 @@
                     <li>Scratch</li>
                 </capacities>
                 <power>15</power>
-                <cooldownTime>1.5</cooldownTime>
+                <cooldownTime>1.2</cooldownTime>
                 <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
                 <surpriseAttack>
                     <extraMeleeDamages>
@@ -408,7 +408,7 @@
                     <kindDefs>
                         <li>CreamGryph_Slave</li>
                     </kindDefs>
-                    <chance>60.0</chance>
+                    <chance>50.0</chance>
                 </li>
             </alienslavekinds>
         </pawnKindSettings>

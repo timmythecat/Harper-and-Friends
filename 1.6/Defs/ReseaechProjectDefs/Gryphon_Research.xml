@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <ResearchProjectDef>
+        <defName>GryphonFurniture</defName>
+        <label>gryphon furniture</label>
+        <description>Build advanced gryphon furniture such as a Gryphon Pillow</description>
+        <tab>Hawk_Gryphon</tab>
+        <baseCost>300</baseCost>
+        <techLevel>Medieval</techLevel>
+        <researchViewX>0.00</researchViewX>
+        <researchViewY>0.00</researchViewY>
+        <generalRules>
+        <rulesStrings>
+            <li>subject->carpentry</li>
+
+            <li>subject_story->has started experiment with better furniture for gryphons</li>
+            <li>subject_story->has mastered craft in furniture and has dedicated works to gryphons</li>
+
+            <li>subject_gerund->building gryphon furniture</li>
+        </rulesStrings>
+        </generalRules>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef>
+        <defName>GryphonBionics</defName>
+        <label>gryphon bionic parts</label>
+        <description>Build high-tech gryphon bionic body parts to replace limbs and eyes. Requires a skilled doctor to attach.</description>
+        <tab>Hawk_Gryphon</tab>
+        <baseCost>1000</baseCost>
+        <techLevel>Spacer</techLevel>
+        <prerequisites>
+            <li>AdvancedFabrication</li>
+            <li>Bionics</li>
+        </prerequisites>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+            <li>MultiAnalyzer</li>
+        </requiredResearchFacilities>
+        <researchViewX>0.00</researchViewX>
+        <researchViewY>3.0</researchViewY>
+        <generalRules>
+        <rulesStrings>
+            <li>subject->bionic prosthesis</li>
+
+            <li>subject_story->worked primarily with disfigured gryphons, crafting bespoke bionic facial elements so they could return to their mates</li>
+            <li>subject_story->was volunteered to have the various prototype bionics implanted, ending up as more machine than man</li>
+            <li>subject_story->has spent countless hours studying the movements of gryphons to design extentions and replacements for them</li>
+
+            <li>subject_gerund->constructing gryphon bionics</li>
+            <li>subject_gerund->utilizing gryphon bionic body parts</li>
+        </rulesStrings>
+        </generalRules>
+    </ResearchProjectDef>
+</Defs>
