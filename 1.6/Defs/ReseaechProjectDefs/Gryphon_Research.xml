@@ -52,7 +52,7 @@
         </generalRules>
     </ResearchProjectDef>
 
-    <ResearchProjectDef>
+    <ResearchProjectDef MayRequire="Ludeon.RimWorld.Odyssey">
         <defName>GryphonSpaceTech</defName>
         <label>gryphon Space Tech</label>
         <description>Some tools and apperal to help gryphons in space</description>

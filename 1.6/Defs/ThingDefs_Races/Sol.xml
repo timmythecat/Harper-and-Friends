@@ -17,7 +17,7 @@
                     <path>Sol/Dessicated/Dessicated_Solstice_east</path>
                 </skeleton>
                 <skull>
-                    <path>Textures/Other/Average_Normal_east</path>
+                    <path>Other/Average_Normal_east</path>
                 </skull>
             </graphicPaths> 
 
@@ -159,6 +159,7 @@
                      <li MayRequire="Ludeon.RimWorld.Biotech">Apparel_PackControl</li>
                      <li MayRequire="Ludeon.RimWorld.Biotech">Apparel_ArrayHeadset</li>
                      <li MayRequire="Ludeon.RimWorld.Biotech">Apparel_AirwireHeadset</li>
+                     <li MayRequire="Ludeon.RimWorld.Odyssey">Apparel_CerebrexNode</li>
                 </whiteApparelList>
 
                 <geneList>
