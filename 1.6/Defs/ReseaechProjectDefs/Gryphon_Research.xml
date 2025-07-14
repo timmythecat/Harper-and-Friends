@@ -51,4 +51,31 @@
         </rulesStrings>
         </generalRules>
     </ResearchProjectDef>
+
+    <ResearchProjectDef>
+        <defName>GryphonSpaceTech</defName>
+        <label>gryphon Space Tech</label>
+        <description>Some tools and apperal to help gryphons in space</description>
+        <tab>Hawk_Gryphon</tab>
+        <baseCost>1200</baseCost>
+        <techLevel>Spacer</techLevel>
+        <prerequisites>
+            <li>OrbitalTech</li>
+        </prerequisites>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <researchViewX>0.00</researchViewX>
+        <researchViewY>4.0</researchViewY>
+        <generalRules>
+        <rulesStrings>
+            <li>subject->bionic prosthesis</li>
+
+            <li>subject_story->Came from space knowing the challeges, They manage to craft supplies that would help gryphons in space</li>
+            <li>subject_story->was volunteered to test the various space tech's ablities</li>
+            <li>subject_story->has spent countless hours studying the movements of gryphons to design equipment that would suit them</li>
+
+            <li>subject_gerund->constructing gryphon space tech</li>
+            <li>subject_gerund->utilizing gryphon space tech</li>
+        </rulesStrings>
+        </generalRules>
+    </ResearchProjectDef>
 </Defs>

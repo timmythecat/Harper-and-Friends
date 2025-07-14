@@ -101,7 +101,6 @@
         <li>
           <statOffsets>
             <ToxicEnvironmentResistance>0.25</ToxicEnvironmentResistance>
-            <VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">0.1</VacuumResistance>
           </statOffsets>
         </li>
       </stages>

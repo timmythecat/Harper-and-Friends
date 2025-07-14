@@ -88,6 +88,7 @@
               <coverage>0.65</coverage>
               <groups>
                 <li>HeadAttackTool</li>
+                <li>Hawk_FullHead</li>
               </groups>
               <parts>
                 <li>

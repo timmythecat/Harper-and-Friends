@@ -8,7 +8,7 @@
   </BodyPartGroupDef>
   
   <BodyPartGroupDef>
-    <defName>FullHead</defName>
+    <defName>Hawk_FullHead</defName>
     <label>full head</label>
     <listOrder>199</listOrder>
   </BodyPartGroupDef>

@@ -163,11 +163,14 @@
                 <onlyUseRaceRestrictedApparel>true</onlyUseRaceRestrictedApparel>
                 <onlyUseRaceRestrictedXenotypes>true</onlyUseRaceRestrictedXenotypes>
 
+                <apparelList>
+                    <li>gryph_SpaceCollar</li>
+                </apparelList>
+
                 <whiteApparelList>
                      <li MayRequire="Ludeon.RimWorld.Biotech">Apparel_PackControl</li>
                      <li MayRequire="Ludeon.RimWorld.Biotech">Apparel_ArrayHeadset</li>
                      <li MayRequire="Ludeon.RimWorld.Biotech">Apparel_AirwireHeadset</li>
-                     <li MayRequire="Ludeon.RimWorld.Biotech">Apparel_IntegratorHeadset</li>
                 </whiteApparelList>
 
                 <geneList>
