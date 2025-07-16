@@ -41,8 +41,8 @@
 	      <ArmorRating_Blunt>1</ArmorRating_Blunt>
     </statBases>
     <costList>
-      <Plasteel>25</Plasteel>
-      <ComponentSpacer>4</ComponentSpacer>
+      <Plasteel>20</Plasteel>
+      <ComponentSpacer>5</ComponentSpacer>
     </costList>
   </ThingDef>
 
@@ -94,7 +94,7 @@
       <spawnThingOnRemoved>BionicGryphLung</spawnThingOnRemoved>
       <addedPartProps>
           <solid>true</solid>
-          <partEfficiency>1.5</partEfficiency>
+          <partEfficiency>1.4</partEfficiency>
       <betterThanNatural>true</betterThanNatural>
       </addedPartProps>
       <stages>
@@ -122,7 +122,7 @@
 	      <ArmorRating_Blunt>1</ArmorRating_Blunt>
     </statBases>
     <costList>
-      <Plasteel>20</Plasteel>
+      <Plasteel>25</Plasteel>
       <ComponentSpacer>3</ComponentSpacer>
     </costList>
   </ThingDef>
@@ -175,7 +175,7 @@
     <spawnThingOnRemoved>BionicGryphKidney</spawnThingOnRemoved>
     <addedPartProps>
       <solid>true</solid>
-      <partEfficiency>1.5</partEfficiency>
+      <partEfficiency>1.2</partEfficiency>
       <betterThanNatural>true</betterThanNatural>
     </addedPartProps>
     <stages>
@@ -422,15 +422,14 @@
       <li>
         <statOffsets>
           <MeleeDodgeChance>5</MeleeDodgeChance>
-          <HackingSpeed>0.1</HackingSpeed>
-          <CrawlSpeed>1</CrawlSpeed>
+          <CrawlSpeed>0.2</CrawlSpeed>
           <VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">0.1</VacuumResistance>
         </statOffsets>
       </li>
     </stages>
     <addedPartProps>
         <solid>true</solid>
-        <partEfficiency>1.6</partEfficiency>
+        <partEfficiency>1.4</partEfficiency>
     <betterThanNatural>true</betterThanNatural>
     </addedPartProps>
   </HediffDef>
@@ -446,7 +445,7 @@
     <statBases>
         <MarketValue>1300</MarketValue>
         <MaxHitPoints>150</MaxHitPoints>
-        <Mass>1</Mass>
+        <Mass>2</Mass>
         <ArmorRating_Sharp>2</ArmorRating_Sharp>
 	      <ArmorRating_Blunt>2</ArmorRating_Blunt>
     </statBases>
@@ -494,9 +493,90 @@
     <addsHediff>BionicGryphWing</addsHediff>
   </RecipeDef>
 
-  <!--Talons-->
+<!--Talons-->
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>BionicGryphTalon</defName>
+    <label>bionic gryphon talon</label>
+    <labelNoun>a bionic gryphon talon</labelNoun>
+    <description>This talon is designed with a plasteel core, mechnisms on the inside allow the gryohon use it as normal. The outide is then textured and colored to resemble a bird like talon.</description>
+    <descriptionHyperlinks><ThingDef>BionicGryphTalon</ThingDef></descriptionHyperlinks>
+    <spawnThingOnRemoved>BionicGryphTalon</spawnThingOnRemoved>
+    <stages>
+      <li>
+        <statOffsets>
+          <HackingSpeed>0.1</HackingSpeed>
+          <CrawlSpeed>0.5</CrawlSpeed>
+        </statOffsets>
+      </li>
+    </stages>
+    <addedPartProps>
+        <solid>true</solid>
+        <partEfficiency>1.4</partEfficiency>
+    <betterThanNatural>true</betterThanNatural>
+    </addedPartProps>
+  </HediffDef>
 
-  <!--Legs-->
+  <ThingDef ParentName="BodyPartBionicBase">
+    <defName>BionicGryphTalon</defName>
+    <label>bionic gryphon talon</label>
+    <description>An advanced artificial gryphon talon. This talon is designed with a plasteel core, mechnisms on the inside allow the gryohon use it as normal. The outide is then textured and colored to resemble a bird like talon.</description>
+    <descriptionHyperlinks><RecipeDef>InstallBionicGryphWing</RecipeDef></descriptionHyperlinks>
+    <researchPrerequisites>
+      <li>GryphonBionics</li>
+    </researchPrerequisites>
+    <statBases>
+        <MarketValue>1000</MarketValue>
+        <MaxHitPoints>150</MaxHitPoints>
+        <Mass>3</Mass>
+        <ArmorRating_Sharp>2</ArmorRating_Sharp>
+	      <ArmorRating_Blunt>2</ArmorRating_Blunt>
+    </statBases>
+    <costList>
+      <Plasteel>25</Plasteel>
+      <ComponentSpacer>5</ComponentSpacer>
+    </costList>
+  </ThingDef>
+
+  <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+    <defName>InstallBionicGryphTalon</defName>
+    <label>install bionic gryphon talon</label>
+    <description>Install a bionic gryphon talon.</description>
+    <descriptionHyperlinks>
+      <ThingDef>BionicGryphTalon</ThingDef>
+      <HediffDef>BionicGryphTalon</HediffDef>
+    </descriptionHyperlinks>
+    <skillRequirements>
+        <Medicine>7</Medicine>
+    </skillRequirements>
+    <jobString>Installing bionic gryphon talon.</jobString>
+    <recipeUsers>
+      <li>charred_raven_gryphon</li>
+      <li>saberbeak_gryphon</li>
+      <li>cream_gryphon</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>BionicGryphTalon</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>BionicGryphTalon</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Hawkimport_Talon</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>BionicGryphTalon</addsHediff>
+  </RecipeDef>
+
+<!--Legs-->
   
-  <!--Tail-->
+<!--Tail-->
+  
 </Defs>

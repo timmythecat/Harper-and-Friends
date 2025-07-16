@@ -389,7 +389,7 @@
                         <kindDefs>
                             <li>CreamGryph_Villager</li>
                         </kindDefs>
-                        <chance>100.0</chance>
+                        <chance>90.0</chance>
                     </li>
                     </pawnKindEntries>
                     <factionDefs>
@@ -403,7 +403,7 @@
                     <kindDefs>
                         <li>CreamGryphon_SpaceRefugee</li>
                     </kindDefs>
-                    <chance>80.0</chance>
+                    <chance>60.0</chance>
                 </li>
             </alienrefugeekinds>
 
@@ -412,7 +412,7 @@
                     <kindDefs>
                         <li>CreamGryph_Slave</li>
                     </kindDefs>
-                    <chance>50.0</chance>
+                    <chance>40.0</chance>
                 </li>
             </alienslavekinds>
         </pawnKindSettings>

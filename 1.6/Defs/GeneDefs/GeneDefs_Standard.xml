@@ -15,7 +15,7 @@
         <defName>Gryphon_Skin_Dark</defName>
         <label>gryphon skin dark</label>
         <description>Just a copy of Sheer Grey skin, but made a replacement just for gryphons to display properly</description>
-        <skinColorOverride>(180, 170, 170)</skinColorOverride>
+        <skinColorOverride>(170, 160, 160)</skinColorOverride>
         <randomBrightnessFactor>0</randomBrightnessFactor>
         <displayOrderInCategory>2</displayOrderInCategory>
     </GeneDef>
