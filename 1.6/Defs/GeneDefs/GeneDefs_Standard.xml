@@ -6,7 +6,7 @@
         <label>gryphon skin</label>
         <description>Just a copy of Sheer white skin, but made a replacement just for gryphons to display properly</description>
         <skinColorOverride>(250, 240, 240)</skinColorOverride>
-        <randomBrightnessFactor>0</randomBrightnessFactor>
+        <randomBrightnessFactor>0.1</randomBrightnessFactor>
         <displayOrderInCategory>1</displayOrderInCategory>
     </GeneDef>
 
@@ -15,8 +15,8 @@
         <defName>Gryphon_Skin_Dark</defName>
         <label>gryphon skin dark</label>
         <description>Just a copy of Sheer Grey skin, but made a replacement just for gryphons to display properly</description>
-        <skinColorOverride>(170, 160, 160)</skinColorOverride>
-        <randomBrightnessFactor>0</randomBrightnessFactor>
+        <skinColorOverride>(140, 135, 135)</skinColorOverride>
+        <randomBrightnessFactor>0.1</randomBrightnessFactor>
         <displayOrderInCategory>2</displayOrderInCategory>
     </GeneDef>
 </Defs>

@@ -70,7 +70,6 @@
                     <li>7</li>
                     <li>10</li>
                 </growthAges>
-
                 
                 <disallowedTraits>
                     <li>
@@ -85,7 +84,7 @@
                     </li>
                     <li>
                         <defName>Gryphon_Skin_Dark</defName>
-                        <chance>60</chance>
+                        <chance>70</chance>
                     </li>
                 </raceGenes>
 
@@ -165,8 +164,13 @@
                      <li MayRequire="Ludeon.RimWorld.Odyssey">Apparel_CerebrexNode</li>
                 </whiteApparelList>
 
+                <blackEndoCategories>
+                    <li>HairColor</li>
+                </blackEndoCategories>
+
                 <geneList>
                     <li>Gryphon_Skin</li>
+                    <li>Gryphon_Skin_Dark</li>
                 </geneList>
             </raceRestriction>
 
