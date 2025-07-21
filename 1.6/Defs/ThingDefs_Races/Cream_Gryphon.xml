@@ -80,7 +80,7 @@
                 <raceGenes>
                     <li>
                         <defName>Gryphon_Skin</defName>
-                        <chance>60</chance>
+                        <chance>70</chance>
                     </li>
                     <li>
                         <defName>Gryphon_Skin_Dark</defName>
@@ -377,7 +377,7 @@
                             <kindDefs>
                                 <li>CreamGryphon_Colonist</li>
                             </kindDefs>
-                            <chance>20.0</chance>
+                            <chance>30.0</chance>
                         </li>
                     </pawnKindEntries>
                     <factionDefs>
