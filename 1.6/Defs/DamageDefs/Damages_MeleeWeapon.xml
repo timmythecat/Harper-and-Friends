@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
     <DamageDef>
         <defName>Firey_Bite</defName>
         <workerClass>DamageWorker_Flame</workerClass>
         <label>firey bite</label>
         <hasForcefulImpact>false</hasForcefulImpact>
         <makesBlood>false</makesBlood>
-        <canInterruptJobs>false</canInterruptJobs>
+        <canInterruptJobs>true</canInterruptJobs>
         <externalViolence>true</externalViolence>
         <deathMessage>{0} has burned to death.</deathMessage>
         <hediff>Burn</hediff>
