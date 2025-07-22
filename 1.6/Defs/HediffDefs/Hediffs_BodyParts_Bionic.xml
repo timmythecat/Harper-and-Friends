@@ -532,7 +532,7 @@
 	      <ArmorRating_Blunt>2</ArmorRating_Blunt>
     </statBases>
     <costList>
-      <Plasteel>25</Plasteel>
+      <Plasteel>30</Plasteel>
       <ComponentSpacer>5</ComponentSpacer>
     </costList>
   </ThingDef>
@@ -576,7 +576,83 @@
   </RecipeDef>
 
 <!--Legs-->
-  
-<!--Tail-->
-  
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>BionicGryphLeg</defName>
+    <label>bionic gryphon leg</label>
+    <labelNoun>a bionic gryphon leg</labelNoun>
+    <description>This leg is designed with a plasteel core, mechnisms on the inside allow the gryohon use it as normal.</description>
+    <descriptionHyperlinks><ThingDef>BionicGryphLeg</ThingDef></descriptionHyperlinks>
+    <spawnThingOnRemoved>BionicGryphLeg</spawnThingOnRemoved>
+    <stages>
+      <li>
+        <statOffsets>
+          <CrawlSpeed>0.3</CrawlSpeed>
+        </statOffsets>
+      </li>
+    </stages>
+    <addedPartProps>
+        <solid>true</solid>
+        <partEfficiency>1.2</partEfficiency>
+    <betterThanNatural>true</betterThanNatural>
+    </addedPartProps>
+  </HediffDef>
+
+  <ThingDef ParentName="BodyPartBionicBase">
+    <defName>BionicGryphLeg</defName>
+    <label>bionic gryphon leg</label>
+    <description>An advanced artificial gryphon leg. This leg is designed with a plasteel core, mechnisms on the inside allow the gryohon use it as normal.</description>
+    <descriptionHyperlinks><RecipeDef>InstallBionicGryphWing</RecipeDef></descriptionHyperlinks>
+    <researchPrerequisites>
+      <li>GryphonBionics</li>
+    </researchPrerequisites>
+    <statBases>
+        <MarketValue>800</MarketValue>
+        <MaxHitPoints>150</MaxHitPoints>
+        <Mass>4</Mass>
+        <ArmorRating_Sharp>2</ArmorRating_Sharp>
+	      <ArmorRating_Blunt>2</ArmorRating_Blunt>
+    </statBases>
+    <costList>
+      <Plasteel>20</Plasteel>
+      <ComponentSpacer>5</ComponentSpacer>
+    </costList>
+  </ThingDef>
+
+  <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+    <defName>InstallBionicGryphLeg</defName>
+    <label>install bionic gryphon leg</label>
+    <description>Install a bionic gryphon leg.</description>
+    <descriptionHyperlinks>
+      <ThingDef>BionicGryphLeg</ThingDef>
+      <HediffDef>BionicGryphLeg</HediffDef>
+    </descriptionHyperlinks>
+    <skillRequirements>
+        <Medicine>7</Medicine>
+    </skillRequirements>
+    <jobString>Installing bionic gryphon leg.</jobString>
+    <recipeUsers>
+      <li>charred_raven_gryphon</li>
+      <li>saberbeak_gryphon</li>
+      <li>cream_gryphon</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>BionicGryphLeg</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>BionicGryphLeg</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Hawkimport_Leg</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>BionicGryphLeg</addsHediff>
+  </RecipeDef>
 </Defs>
