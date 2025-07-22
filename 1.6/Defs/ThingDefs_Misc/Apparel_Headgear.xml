@@ -20,6 +20,7 @@
       <Insulation_Cold>20</Insulation_Cold>
       <Insulation_Heat>5</Insulation_Heat>
       <EquipDelay>2</EquipDelay>
+      <Beauty>1</Beauty>
     </statBases>
     <equippedStatOffsets>
       <ToxicEnvironmentResistance>0.2</ToxicEnvironmentResistance>

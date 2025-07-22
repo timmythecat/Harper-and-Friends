@@ -373,7 +373,7 @@
     </AlienRace.ThingDef_AlienRace>
 
     <AlienRace.RaceSettings>
-        <defName>Harper_RaceSettings</defName>
+        <defName>Charred_Raven_RaceSettings</defName>
 
         <pawnKindSettings>
             <alienrefugeekinds>

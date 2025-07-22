@@ -358,7 +358,7 @@
     </AlienRace.ThingDef_AlienRace>
 
     <AlienRace.RaceSettings>
-        <defName>Sol_RaceSettings</defName>
+        <defName>Saberbeak_RaceSettings</defName>
 
         <pawnKindSettings>
             <alienrefugeekinds>
