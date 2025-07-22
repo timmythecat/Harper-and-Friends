@@ -8,7 +8,7 @@ A mod to add gryphons such as Harper and Wynter to rimworld as human like pawns.
 + A set of Genes for the Gryphons
 + Bionic parts for gryphons 
 + Furniture and gear for gryphons
-+ Preening Feature|
++ Preening Feature
 + Toggleable spawning
 + And more (coming soon)
 
