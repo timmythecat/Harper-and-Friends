@@ -8,7 +8,11 @@
         <alienRace>
             <graphicPaths>
                 <body>
-                    <path>Harper/Body/</path>
+                    <path>Harper/Body/Harper1</path>
+                    <extendedGraphics>
+                        <Age For="Egg">Harper/Egg/HarperEgg</Age>
+                        <Age For="Gryphlet">Harper/Body/Naked_Child</Age>
+                    </extendedGraphics>
                 </body>
                 <head>
                     <path>Harper/Heads/</path>
@@ -19,8 +23,7 @@
                 <skull>
                     <path>Other/Average_Normal_east</path>
                 </skull>
-
-                
+                <swaddle>Other/Average_Normal_east</swaddle>
             </graphicPaths> 
 
             <styleSettings>
@@ -56,7 +59,7 @@
 
                 <lovinIntervalHoursFromAge>
                     <points>
-                        <li>(8, 1.4)</li>
+                        <li>(10, 1.4)</li>
                         <li>(20, 1.5)</li>
                         <li>(30, 3)</li>
                         <li>(50, 10)</li>
@@ -65,9 +68,8 @@
                 </lovinIntervalHoursFromAge>
 
                 <growthAges>
-                    <li>3</li>
+                    <li>2</li>
                     <li>7</li>
-                    <li>10</li>
                     <li>12</li>
                 </growthAges>
 
@@ -83,6 +85,11 @@
                         <chance>100</chance>
                     </li>
                 </raceGenes>
+
+                <validBeds>
+                   <li>Hawk_Nest</li>
+                   <li>Hawk_Gryph_Pillow</li>
+                </validBeds>
 
                 <reproduction>
                     <!-- Reproduction settings are listed here -->
@@ -156,6 +163,10 @@
                         </li>
                     </colorChannels>
                 </alienPartGenerator>
+
+                <ageStatOverrides>
+                
+                </ageStatOverrides>
             </generalSettings>
 
             <raceRestriction>
@@ -213,16 +224,18 @@
             <lifeStageAges>
 				<!-- These affect stats and if your Race is ready to Lay eggs or be milked if you set that up in the LifeStage, it also determins when your Race is Sexualy Mature and can Reproduce which is not used by Humanlikes in Vanilla -->
                 <li Class="AlienRace.LifeStageAgeAlien">
-                        <def>HumanlikeBaby</def>
-                        <minAge>0</minAge>
-                        <customDrawSize>(1, 1)</customDrawSize>
-                        <customHeadDrawSize>(0.01, 0.01)</customHeadDrawSize>
+                    <def>Egg</def>
+                    <minAge>0</minAge>
+                    <customDrawSize>(1, 1)</customDrawSize>
+                    <customHeadDrawSize>(0.01, 0.01)</customHeadDrawSize>
+                    <customPortraitHeadDrawSize>(0.01, 0.01)</customPortraitHeadDrawSize>
                 </li>
                 <li Class="AlienRace.LifeStageAgeAlien">
-                    <def>HumanlikeChild</def>
-                    <minAge>3</minAge>
-                    <customDrawSize>(1.6, 1.6)</customDrawSize>
+                    <def>Gryphlet</def>
+                    <minAge>2</minAge>
+                    <customDrawSize>(1.5, 1.5)</customDrawSize>
                     <customHeadDrawSize>(0.01, 0.01)</customHeadDrawSize>
+                    <customPortraitHeadDrawSize>(0.01, 0.01)</customPortraitHeadDrawSize>
                 </li>
                 <li Class="AlienRace.LifeStageAgeAlien">
                     <def>HumanlikeTeenager</def>

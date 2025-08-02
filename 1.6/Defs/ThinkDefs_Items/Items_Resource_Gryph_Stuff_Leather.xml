@@ -34,7 +34,7 @@
 
     <ThingDef ParentName="LeatherBase">
         <defName>Feather_Harper</defName>
-        <label>Harper Feather</label>
+        <label>Charred Raven Feather</label>
         <description>Most of the time you'll find these feathers being preened off of gryphons</description>
         <graphicData>
             <texPath>Harper/Things/Feathers</texPath>
@@ -66,7 +66,7 @@
 
     <ThingDef ParentName="LeatherBase">
         <defName>Feather_Sol</defName>
-        <label>Wynter Feather</label>
+        <label>Saberbeak Feather</label>
         <description>Most of the time you'll find these feathers being preened off of gryphons</description>
         <graphicData>
             <texPath>Sol/Things/Feathers</texPath>

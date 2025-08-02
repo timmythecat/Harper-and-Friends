@@ -8,7 +8,7 @@
         <makesBlood>false</makesBlood>
         <canInterruptJobs>true</canInterruptJobs>
         <externalViolence>true</externalViolence>
-        <deathMessage>{0} has burned to death.</deathMessage>
+        <deathMessage>{0} has been burned to death.</deathMessage>
         <hediff>Burn</hediff>
         <armorCategory>Heat</armorCategory>
         <minDamageToFragment>10</minDamageToFragment>

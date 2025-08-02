@@ -19,6 +19,7 @@
                 <skull>
                     <path>Other/Average_Normal_east</path>
                 </skull>
+                <swaddle>Other/Average_Normal_east</swaddle>
             </graphicPaths> 
 
             <styleSettings>
@@ -47,9 +48,8 @@
                 <maxDamageForSocialfight>10</maxDamageForSocialfight>
 
                 <growthAges>
-                    <li>3</li>
+                    <li>2</li>
                     <li>7</li>
-                    <li>10</li>
                     <li>12</li>
                 </growthAges>
 
@@ -65,6 +65,11 @@
                         <chance>100</chance>
                     </li>
                 </raceGenes>
+
+                <validBeds>
+                   <li>Hawk_Nest</li>
+                   <li>Hawk_Gryph_Pillow</li>
+                </validBeds>
 
                 <reproduction>
                     <!-- Reproduction settings are listed here -->
@@ -144,6 +149,10 @@
                         </li>
                     </colorChannels>
                 </alienPartGenerator>
+
+                <ageStatOverrides>
+                
+                </ageStatOverrides>
             </generalSettings>
 
             <raceRestriction>
@@ -201,9 +210,9 @@
             <lifeStageAges>
 				<!-- These Saffect stats and if your Race is ready to Lay eggs or be milked if you set that up in the LifeStage, it also determins when your Race is Sexualy Mature and can Reproduce which is not used by Humanlikes in Vanilla -->
 				<li Class="AlienRace.LifeStageAgeAlien">
-                        <def>HumanlikeBaby</def>
-                        <minAge>0</minAge>
-                        <customDrawSize>(1, 1)</customDrawSize>
+                    <def>Egg</def>
+                    <minAge>0</minAge>
+                    <customDrawSize>(1, 1)</customDrawSize>
                 </li>
                 <li Class="AlienRace.LifeStageAgeAlien">
                     <def>HumanlikeChild</def>

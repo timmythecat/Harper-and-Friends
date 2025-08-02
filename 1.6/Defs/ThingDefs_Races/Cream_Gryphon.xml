@@ -9,6 +9,9 @@
             <graphicPaths>
                 <body>
                     <path>CommonGryphon/Body/</path>
+                    <extendedGraphics>
+                        
+                    </extendedGraphics>
                 </body>
                 <head>
                     <path>CommonGryphon/Heads/</path>
@@ -19,8 +22,7 @@
                 <skull>Average_Normal_east
                     <path>Other/Average_Normal_east</path>
                 </skull>
-
-                
+                <swaddle>Other/Average_Normal_east</swaddle>
             </graphicPaths> 
 
             <styleSettings>
@@ -66,9 +68,8 @@
 
                 <growthAges>
                     <li>1</li>
-                    <li>3</li>
                     <li>7</li>
-                    <li>10</li>
+                    <li>12</li>
                 </growthAges>
                 
                 <disallowedTraits>
@@ -87,6 +88,11 @@
                         <chance>70</chance>
                     </li>
                 </raceGenes>
+
+                <validBeds>
+                   <li>Hawk_Nest</li>
+                   <li>Hawk_Gryph_Pillow</li>
+                </validBeds>
 
                 <reproduction>
                     <femaleFertilityAgeFactor>
@@ -146,6 +152,10 @@
                         </li>
                     </colorChannels>
                 </alienPartGenerator>
+
+                <ageStatOverrides>
+                
+                </ageStatOverrides>
             </generalSettings>
 
             <raceRestriction>
@@ -208,7 +218,7 @@
             <lifeStageAges>
 				<!-- These Saffect stats and if your Race is ready to Lay eggs or be milked if you set that up in the LifeStage, it also determins when your Race is Sexualy Mature and can Reproduce which is not used by Humanlikes in Vanilla -->
                 <li Class="AlienRace.LifeStageAgeAlien">
-                    <def>HumanlikeBaby</def>
+                    <def>Egg</def>
                     <minAge>0</minAge>
                     <customDrawSize>(1.4, 1.4)</customDrawSize>
                     <customHeadDrawSize>(0.01, 0.01)</customHeadDrawSize>

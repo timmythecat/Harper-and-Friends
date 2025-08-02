@@ -23,7 +23,7 @@
       <parts>
         <li>
           <def>Tail</def>
-          <coverage>0.1</coverage>
+          <coverage>0.08</coverage>
         </li>
         <li>
           <def>Hawkimport_Wing</def>
