@@ -8,7 +8,11 @@
         <alienRace>
             <graphicPaths>
                 <body>
-                    <path>Sol/Body/</path>
+                    <path>Sol/Body/Solstice1</path>
+                    <extendedGraphics>
+                        <Age For="Egg">Sol/Body/Naked_Child</Age>
+                        <Age For="Gryphlet">Sol/Body/Naked_Child</Age>
+                    </extendedGraphics>
                 </body>
                 <head>
                     <path>Sol/Heads/</path>
