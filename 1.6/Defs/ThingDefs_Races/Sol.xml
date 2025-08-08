@@ -10,7 +10,7 @@
                 <body>
                     <path>Sol/Body/Solstice1</path>
                     <extendedGraphics>
-                        <Age For="Egg">Sol/Body/Naked_Child</Age>
+                        <Age For="Egg">Sol/Sol_Eggs/SaberbeakEgg</Age>
                         <Age For="Gryphlet">Sol/Body/Naked_Child</Age>
                     </extendedGraphics>
                 </body>
@@ -216,13 +216,14 @@
 				<li Class="AlienRace.LifeStageAgeAlien">
                     <def>Egg</def>
                     <minAge>0</minAge>
-                    <customDrawSize>(1, 1)</customDrawSize>
+                    <customDrawSize>(1.1, 1.1)</customDrawSize>
+                    <customPortraitDrawSize>(1, 1)</customPortraitDrawSize>
                     <customHeadDrawSize>(0.01, 0.01)</customHeadDrawSize>
                     <customPortraitHeadDrawSize>(0.01, 0.01)</customPortraitHeadDrawSize>
                 </li>
                 <li Class="AlienRace.LifeStageAgeAlien">
-                    <def>HumanlikeChild</def>
-                    <minAge>3</minAge>
+                    <def>Gryphlet</def>
+                    <minAge>2</minAge>
                     <customDrawSize>(1.6, 1.6)</customDrawSize>
                     <customHeadDrawSize>(0.01, 0.01)</customHeadDrawSize>
                     <customPortraitHeadDrawSize>(0.01, 0.01)</customPortraitHeadDrawSize>

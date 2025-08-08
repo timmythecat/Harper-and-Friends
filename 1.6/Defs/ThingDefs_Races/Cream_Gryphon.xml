@@ -224,7 +224,7 @@
                     <customHeadDrawSize>(0.01, 0.01)</customHeadDrawSize>
                 </li>
                 <li Class="AlienRace.LifeStageAgeAlien">
-                    <def>HumanlikeChild</def>
+                    <def>Gryphlet</def>
                     <minAge>1</minAge>
                     <customDrawSize>(2.0, 2.0)</customDrawSize>
                     <customHeadDrawSize>(0.57, 0.57)</customHeadDrawSize>
