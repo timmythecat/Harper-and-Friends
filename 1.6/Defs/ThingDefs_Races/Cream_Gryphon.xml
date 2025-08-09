@@ -8,9 +8,10 @@
         <alienRace>
             <graphicPaths>
                 <body>
-                    <path>CommonGryphon/Body/</path>
+                    <path>CommonGryphon/Body/Gryphon1</path>
                     <extendedGraphics>
-                        
+                        <Age For="Egg">CommonGryphon/Cream_eggs/CreamEgg</Age>
+                        <Age For="Gryphlet">CommonGryphon/Body/Naked_Child</Age>
                     </extendedGraphics>
                 </body>
                 <head>
@@ -220,8 +221,9 @@
                 <li Class="AlienRace.LifeStageAgeAlien">
                     <def>Egg</def>
                     <minAge>0</minAge>
-                    <customDrawSize>(1.4, 1.4)</customDrawSize>
+                    <customDrawSize>(0.8, 0.8)</customDrawSize>
                     <customHeadDrawSize>(0.01, 0.01)</customHeadDrawSize>
+                    <customPortraitHeadDrawSize>(0.01, 0.01)</customPortraitHeadDrawSize>
                 </li>
                 <li Class="AlienRace.LifeStageAgeAlien">
                     <def>Gryphlet</def>
