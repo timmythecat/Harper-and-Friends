@@ -214,6 +214,7 @@
 			<meatMarketValue>0.1</meatMarketValue>
 			<manhunterOnDamageChance>1.2</manhunterOnDamageChance>
 			<manhunterOnTameFailChance>0.5</manhunterOnTameFailChance>
+            <useMeatFrom>cream_gryphon</useMeatFrom>
 
             <renderTree>Humanlike</renderTree>
             <bloodDef>Filth_Blood</bloodDef>
