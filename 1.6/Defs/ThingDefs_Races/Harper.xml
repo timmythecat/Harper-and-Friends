@@ -202,7 +202,7 @@
 			<thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
 			<intelligence>Humanlike</intelligence>
 			<makesFootprints>true</makesFootprints>
-			<lifeExpectancy>70</lifeExpectancy>
+			<lifeExpectancy>80</lifeExpectancy>
 			<leatherDef>Feather_Harper</leatherDef>
 			<nameCategory>HumanStandard</nameCategory>
 			<body>QuadrupedAnimalWithWingsAndBeak</body>

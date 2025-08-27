@@ -53,8 +53,8 @@
 
                 <growthAges>
                     <li>2</li>
-                    <li>7</li>
-                    <li>12</li>
+                    <li>8</li>
+                    <li>14</li>
                 </growthAges>
 
                 <disallowedTraits>
@@ -192,7 +192,7 @@
 			<thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
 			<intelligence>Humanlike</intelligence>
 			<makesFootprints>true</makesFootprints>
-			<lifeExpectancy>80</lifeExpectancy>
+			<lifeExpectancy>90</lifeExpectancy>
 			<leatherDef>Feather_Sol</leatherDef>
 			<nameCategory>HumanStandard</nameCategory>
 			<body>QuadrupedAnimalWithWingsAndBeak</body>
@@ -231,12 +231,12 @@
                 </li>
                 <li Class="AlienRace.LifeStageAgeAlien">
                     <def>HumanlikeTeenager</def>
-                    <minAge>7</minAge>
+                    <minAge>8</minAge>
                     <customDrawSize>(2, 2)</customDrawSize>
                 </li>
                 <li>
                     <def>HumanlikeAdult</def>
-                    <minAge>12</minAge>
+                    <minAge>14</minAge>
                 </li>
             </lifeStageAges>
           
