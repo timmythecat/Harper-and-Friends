@@ -7,7 +7,7 @@
 		<workType>Handling</workType>
 		<verb>take preened feathers</verb>
 		<gerund>taking preened feathers</gerund>
-		<priorityInType>95</priorityInType>
+		<priorityInType>90</priorityInType>
 		<requiredCapacities>
 			<li>Manipulation</li>
 		</requiredCapacities>
