@@ -209,7 +209,7 @@
 			<baseBodySize>5</baseBodySize>
 			<baseHealthScale>6</baseHealthScale>
 			<foodType>CarnivoreAnimal, OmnivoreHuman</foodType>
-            <baseHungerRate>0.55</baseHungerRate>
+            <baseHungerRate>0.6</baseHungerRate>
 			<gestationPeriodDays>20</gestationPeriodDays>
 			<meatMarketValue>0.1</meatMarketValue>
 			<manhunterOnDamageChance>1.2</manhunterOnDamageChance>

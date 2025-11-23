@@ -197,7 +197,7 @@
 			<nameCategory>HumanStandard</nameCategory>
 			<body>QuadrupedAnimalWithWingsAndBeak</body>
 			<baseBodySize>7</baseBodySize>
-            <baseHungerRate>0.65</baseHungerRate>
+            <baseHungerRate>0.7</baseHungerRate>
 			<baseHealthScale>8</baseHealthScale>
 			<foodType>OmnivoreHuman</foodType>
 			<gestationPeriodDays>20</gestationPeriodDays>
