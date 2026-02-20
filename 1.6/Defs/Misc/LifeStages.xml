@@ -33,7 +33,7 @@
         <voxPitch>1.6</voxPitch>
         <headSizeFactor>0.5</headSizeFactor>
         <foodMaxFactor>0.75</foodMaxFactor>
-        <hungerRateFactor>0.0001</hungerRateFactor>
+        <hungerRateFactor>0.001</hungerRateFactor>
         <healthScaleFactor>0.1</healthScaleFactor>
         <marketValueFactor>0.4</marketValueFactor>
         <meleeDamageFactor>0.01</meleeDamageFactor>

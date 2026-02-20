@@ -30,15 +30,15 @@
     <label>bionic gryphon heart</label>
     <description>An advanced artificial gryphon heart. It has synthetic muscle fibers for a realistic heartbeat, plus a high-flow pump for rapid circulation during high stress. It also provides better healing capacities.</description>
     <descriptionHyperlinks><RecipeDef>InstallBionicGryphHeart</RecipeDef></descriptionHyperlinks>
-    <researchPrerequisites>
-      <li>GryphonBionics</li>
-    </researchPrerequisites>
+    <recipeMaker>
+      <researchPrerequisite>GryphonBionics</researchPrerequisite>
+    </recipeMaker>
     <statBases>
-        <MarketValue>2000</MarketValue>
-        <MaxHitPoints>150</MaxHitPoints>
-        <Mass>5</Mass>
-        <ArmorRating_Sharp>1</ArmorRating_Sharp>
-	      <ArmorRating_Blunt>1</ArmorRating_Blunt>
+      <MarketValue>2000</MarketValue>
+      <MaxHitPoints>150</MaxHitPoints>
+      <Mass>5</Mass>
+      <ArmorRating_Sharp>1</ArmorRating_Sharp>
+      <ArmorRating_Blunt>1</ArmorRating_Blunt>
     </statBases>
     <costList>
       <Plasteel>20</Plasteel>
@@ -111,15 +111,15 @@
     <label>bionic gryphon lung</label>
     <description>An advanced artificial gryphon lung. Optimized to regulate breaths in such a way to last longer.</description>
     <descriptionHyperlinks><RecipeDef>InstallBionicGryphLung</RecipeDef></descriptionHyperlinks>
-    <researchPrerequisites>
-      <li>GryphonBionics</li>
-    </researchPrerequisites>
+    <recipeMaker>
+      <researchPrerequisite>GryphonBionics</researchPrerequisite>
+    </recipeMaker>
     <statBases>
-        <MarketValue>1600</MarketValue>
-        <MaxHitPoints>100</MaxHitPoints>
-        <Mass>5</Mass>
-        <ArmorRating_Sharp>1</ArmorRating_Sharp>
-	      <ArmorRating_Blunt>1</ArmorRating_Blunt>
+      <MarketValue>1600</MarketValue>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Mass>5</Mass>
+      <ArmorRating_Sharp>1</ArmorRating_Sharp>
+      <ArmorRating_Blunt>1</ArmorRating_Blunt>
     </statBases>
     <costList>
       <Plasteel>25</Plasteel>
@@ -192,15 +192,15 @@
     <label>bionic gryphon kidney</label>
     <description>An advanced artificial gryphon kidney. It's capability to filter waste and extra water from the host's blood is so efficient that there's hardly any waste at all.</description>
     <descriptionHyperlinks><RecipeDef>InstallBionicGryphKidney</RecipeDef></descriptionHyperlinks>
-    <researchPrerequisites>
-      <li>GryphonBionics</li>
-    </researchPrerequisites>
+    <recipeMaker>
+      <researchPrerequisite>GryphonBionics</researchPrerequisite>
+    </recipeMaker>
     <statBases>
-        <MarketValue>1600</MarketValue>
-        <MaxHitPoints>100</MaxHitPoints>
-        <Mass>5</Mass>
-        <ArmorRating_Sharp>1</ArmorRating_Sharp>
-	      <ArmorRating_Blunt>1</ArmorRating_Blunt>
+      <MarketValue>1600</MarketValue>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Mass>5</Mass>
+      <ArmorRating_Sharp>1</ArmorRating_Sharp>
+      <ArmorRating_Blunt>1</ArmorRating_Blunt>
     </statBases>
     <costList>
       <Plasteel>15</Plasteel>
@@ -274,15 +274,15 @@
     <label>bionic gryphon eye</label>
     <description>An advanced artificial gryphon eye. Allow for gryphons to have better vison</description>
     <descriptionHyperlinks><RecipeDef>InstallBionicGryphEye</RecipeDef></descriptionHyperlinks>
-    <researchPrerequisites>
-      <li>GryphonBionics</li>
-    </researchPrerequisites>
+    <recipeMaker>
+      <researchPrerequisite>GryphonBionics</researchPrerequisite>
+    </recipeMaker>
     <statBases>
-        <MarketValue>1000</MarketValue>
-        <MaxHitPoints>150</MaxHitPoints>
-        <Mass>1</Mass>
-        <ArmorRating_Sharp>1</ArmorRating_Sharp>
-	      <ArmorRating_Blunt>1</ArmorRating_Blunt>
+      <MarketValue>1000</MarketValue>
+      <MaxHitPoints>150</MaxHitPoints>
+      <Mass>1</Mass>
+      <ArmorRating_Sharp>1</ArmorRating_Sharp>
+      <ArmorRating_Blunt>1</ArmorRating_Blunt>
     </statBases>
     <costList>
       <Plasteel>10</Plasteel>
@@ -356,15 +356,15 @@
     <label>bionic gryphon spine</label>
     <description>An advanced artificial gryphon spine. A biogel nerve bundle runs down an articulated plasteel core, surrounded by a lattice-dust healing system. It seem to pontain just a little power.</description>
     <descriptionHyperlinks><RecipeDef>InstallBionicGryphKidney</RecipeDef></descriptionHyperlinks>
-    <researchPrerequisites>
-      <li>GryphonBionics</li>
-    </researchPrerequisites>
+    <recipeMaker>
+      <researchPrerequisite>GryphonBionics</researchPrerequisite>
+    </recipeMaker>
     <statBases>
-        <MarketValue>1200</MarketValue>
-        <MaxHitPoints>100</MaxHitPoints>
-        <Mass>6</Mass>
-        <ArmorRating_Sharp>2</ArmorRating_Sharp>
-	      <ArmorRating_Blunt>1</ArmorRating_Blunt>
+      <MarketValue>1200</MarketValue>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Mass>6</Mass>
+      <ArmorRating_Sharp>2</ArmorRating_Sharp>
+      <ArmorRating_Blunt>1</ArmorRating_Blunt>
     </statBases>
     <costList>
       <Plasteel>18</Plasteel>
@@ -439,15 +439,15 @@
     <label>bionic gryphon wing</label>
     <description>An advanced artificial gryphon wing. This wing is designed to allow feathers to be inserted into slots making it appear as if its a normal wing.</description>
     <descriptionHyperlinks><RecipeDef>InstallBionicGryphWing</RecipeDef></descriptionHyperlinks>
-    <researchPrerequisites>
-      <li>GryphonBionics</li>
-    </researchPrerequisites>
+    <recipeMaker>
+      <researchPrerequisite>GryphonBionics</researchPrerequisite>
+    </recipeMaker>
     <statBases>
-        <MarketValue>1300</MarketValue>
-        <MaxHitPoints>150</MaxHitPoints>
-        <Mass>2</Mass>
-        <ArmorRating_Sharp>2</ArmorRating_Sharp>
-	      <ArmorRating_Blunt>2</ArmorRating_Blunt>
+      <MarketValue>1300</MarketValue>
+      <MaxHitPoints>150</MaxHitPoints>
+      <Mass>2</Mass>
+      <ArmorRating_Sharp>2</ArmorRating_Sharp>
+      <ArmorRating_Blunt>2</ArmorRating_Blunt>
     </statBases>
     <costList>
       <Plasteel>20</Plasteel>
@@ -521,15 +521,15 @@
     <label>bionic gryphon talon</label>
     <description>An advanced artificial gryphon talon. This talon is designed with a plasteel core, mechnisms on the inside allow the gryohon use it as normal. The outide is then textured and colored to resemble a bird like talon.</description>
     <descriptionHyperlinks><RecipeDef>InstallBionicGryphWing</RecipeDef></descriptionHyperlinks>
-    <researchPrerequisites>
-      <li>GryphonBionics</li>
-    </researchPrerequisites>
+    <recipeMaker>
+      <researchPrerequisite>GryphonBionics</researchPrerequisite>
+    </recipeMaker>
     <statBases>
-        <MarketValue>1000</MarketValue>
-        <MaxHitPoints>150</MaxHitPoints>
-        <Mass>3</Mass>
-        <ArmorRating_Sharp>2</ArmorRating_Sharp>
-	      <ArmorRating_Blunt>2</ArmorRating_Blunt>
+      <MarketValue>1000</MarketValue>
+      <MaxHitPoints>150</MaxHitPoints>
+      <Mass>3</Mass>
+      <ArmorRating_Sharp>2</ArmorRating_Sharp>
+      <ArmorRating_Blunt>2</ArmorRating_Blunt>
     </statBases>
     <costList>
       <Plasteel>30</Plasteel>
@@ -602,15 +602,15 @@
     <label>bionic gryphon leg</label>
     <description>An advanced artificial gryphon leg. This leg is designed with a plasteel core, mechnisms on the inside allow the gryohon use it as normal.</description>
     <descriptionHyperlinks><RecipeDef>InstallBionicGryphWing</RecipeDef></descriptionHyperlinks>
-    <researchPrerequisites>
-      <li>GryphonBionics</li>
-    </researchPrerequisites>
+    <recipeMaker>
+      <researchPrerequisite>GryphonBionics</researchPrerequisite>
+    </recipeMaker>
     <statBases>
-        <MarketValue>800</MarketValue>
-        <MaxHitPoints>150</MaxHitPoints>
-        <Mass>4</Mass>
-        <ArmorRating_Sharp>2</ArmorRating_Sharp>
-	      <ArmorRating_Blunt>2</ArmorRating_Blunt>
+      <MarketValue>800</MarketValue>
+      <MaxHitPoints>150</MaxHitPoints>
+      <Mass>4</Mass>
+      <ArmorRating_Sharp>2</ArmorRating_Sharp>
+      <ArmorRating_Blunt>2</ArmorRating_Blunt>
     </statBases>
     <costList>
       <Plasteel>20</Plasteel>
