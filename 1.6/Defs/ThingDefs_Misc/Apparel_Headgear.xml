@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-    <ThingDef ParentName="ArmorHelmetMakeableBase" MayRequire="Ludeon.RimWorld.Odyssey">
+  <ThingDef ParentName="ArmorHelmetMakeableBase" MayRequire="Ludeon.RimWorld.Odyssey">
     <defName>gryph_SpaceCollar</defName>
     <label>grypyon space collar</label>
     <description>This collar creates a feild around a gryphons's head when worn, protecting them from a vacuum and recycling oxygen to last longer</description>
     <possessionCount>1</possessionCount>
     <generateAllowChance>0</generateAllowChance>
     <graphicData>
-      <texPath>Other/Collar_item</texPath>
+      <texPath>Things/Collar_item</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>

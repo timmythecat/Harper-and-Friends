@@ -22,6 +22,30 @@
     </ResearchProjectDef>
 
     <ResearchProjectDef>
+        <defName>PrimitiveGryphonWeapons</defName>
+        <label>primitive gryphon weapons</label>
+        <description>Craft basic ranged weapons that gryphons can equip</description>
+        <tab>Hawk_Gryphon</tab>
+        <baseCost>300</baseCost>
+        <techLevel>Medieval</techLevel>
+        <researchViewX>0.00</researchViewX>
+        <researchViewY>2.00</researchViewY>
+        <generalRules>
+        <rulesStrings>
+            <li>subject->bowyery</li>
+            <li>subject->bow-making</li>
+            <li>subject->cannonry</li>
+
+            <li>subject_story->has started drafting new ranged weapon concepts for gryphons</li>
+            <li>subject_story->has mastered craft in bows and has dedicated works to gryphons</li>
+            <li>subject_story->was volunteered to test the various ranged weaponry</li>
+
+            <li>subject_gerund->constructing gryphon weapons</li>
+        </rulesStrings>
+        </generalRules>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef>
         <defName>GryphonBionics</defName>
         <label>gryphon bionic parts</label>
         <description>Build high-tech gryphon bionic body parts to replace limbs and eyes. Requires a skilled doctor to attach.</description>

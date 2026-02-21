@@ -178,6 +178,10 @@
                 <onlyUseRaceRestrictedApparel>true</onlyUseRaceRestrictedApparel>
                 <onlyUseRaceRestrictedXenotypes>true</onlyUseRaceRestrictedXenotypes>
 
+                <weaponList>
+                    <li>Gryph_Crossbow</li>
+                </weaponList>
+
                 <apparelList>
                     <li>gryph_SpaceCollar</li>
                 </apparelList>
