@@ -355,7 +355,7 @@
     <defName>BionicGryphSpine</defName>
     <label>bionic gryphon spine</label>
     <description>An advanced artificial gryphon spine. A biogel nerve bundle runs down an articulated plasteel core, surrounded by a lattice-dust healing system. It seem to pontain just a little power.</description>
-    <descriptionHyperlinks><RecipeDef>InstallBionicGryphKidney</RecipeDef></descriptionHyperlinks>
+    <descriptionHyperlinks><RecipeDef>InstallBionicGryphSpine</RecipeDef></descriptionHyperlinks>
     <recipeMaker>
       <researchPrerequisite>GryphonBionics</researchPrerequisite>
     </recipeMaker>

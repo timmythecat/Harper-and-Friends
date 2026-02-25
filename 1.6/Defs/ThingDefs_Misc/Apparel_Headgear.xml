@@ -12,7 +12,7 @@
     </graphicData>
     <statBases>
       <WorkToMake>10000</WorkToMake>
-      <MaxHitPoints>250</MaxHitPoints>
+      <MaxHitPoints>300</MaxHitPoints>
       <Mass>1.2</Mass>
       <Flammability>0.2</Flammability>
       <ArmorRating_Sharp>0.1</ArmorRating_Sharp>
