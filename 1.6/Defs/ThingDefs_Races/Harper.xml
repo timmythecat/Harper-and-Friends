@@ -215,7 +215,7 @@
 			<leatherDef>Feather_Harper</leatherDef>
 			<nameCategory>HumanStandard</nameCategory>
 			<body>QuadrupedAnimalWithWingsAndBeak</body>
-			<baseBodySize>5</baseBodySize>
+			<baseBodySize>5</baseBodySize> <!--Normaly 5-->
 			<baseHealthScale>6</baseHealthScale>
 			<foodType>CarnivoreAnimal, OmnivoreHuman</foodType>
             <baseHungerRate>0.6</baseHungerRate>
