@@ -46,6 +46,33 @@
     </ResearchProjectDef>
 
     <ResearchProjectDef>
+        <defName>IndustrialGryphonWeapons</defName>
+        <label>industrial gryphon weapons</label>
+        <description>Craft basic ranged weapons that gryphons can equip</description>
+        <tab>Hawk_Gryphon</tab>
+        <baseCost>600</baseCost>
+        <techLevel>Industrial</techLevel>
+        <prerequisites>
+            <li>PrimitiveGryphonWeapons</li>
+            <li>Smithing</li>
+        </prerequisites>
+        <researchViewX>1.00</researchViewX>
+        <researchViewY>2.00</researchViewY>
+        <generalRules>
+        <rulesStrings>
+            <li>subject->gun-making</li>
+            <li>subject->cannonry</li>
+
+            <li>subject_story->has started drafting new ranged weapon concepts for gryphons</li>
+            <li>subject_story->has mastered craft in guns and has dedicated works to gryphons</li>
+            <li>subject_story->was volunteered to test the various ranged weaponry</li>
+
+            <li>subject_gerund->constructing gryphon weapons</li>
+        </rulesStrings>
+        </generalRules>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef>
         <defName>GryphonBionics</defName>
         <label>gryphon bionic parts</label>
         <description>Build high-tech gryphon bionic body parts to replace limbs and eyes. Requires a skilled doctor to attach.</description>

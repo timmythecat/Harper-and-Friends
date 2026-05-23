@@ -53,16 +53,6 @@
         <initialWillRange>2~4</initialWillRange>
         <initialResistanceRange>28~44</initialResistanceRange>
     </PawnKindDef>
-
-    <PawnKindDef ParentName="Tribal_Hunter">
-        <defName>Tribal_CreamGryph_Trader</defName>
-        <label>trader</label>
-        <combatPower>70</combatPower>
-        <race>cream_gryphon</race>
-        <trader>true</trader>
-        <initialWillRange>4~6</initialWillRange>
-        <initialResistanceRange>12~18</initialResistanceRange>
-    </PawnKindDef>
     
     <PawnKindDef ParentName="SlaveBase">
         <defName>CreamGryph_Slave</defName>
@@ -72,20 +62,6 @@
         <invNutrition>2</invNutrition>
         <invFoodDef>Pemmican</invFoodDef>
         <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
-    </PawnKindDef>
-
-    <PawnKindDef ParentName="TraderBase">
-        <defName>CreamGryph_Trader</defName>
-        <label>gryphon trader</label>
-        <combatPower>100</combatPower>
-        <race>cream_gryphon</race>
-        <weaponTags>
-            <li>GryphonNeolithic</li>
-        </weaponTags>
-        <techHediffsTags>
-            <li>GryphAdvanced</li>
-        </techHediffsTags>
-        <techHediffsChance>0.2</techHediffsChance>
     </PawnKindDef> 
 
     <PawnKindDef ParentName="VillagerBase">
