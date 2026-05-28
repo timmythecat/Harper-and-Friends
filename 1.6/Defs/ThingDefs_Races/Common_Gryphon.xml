@@ -60,9 +60,9 @@
 
                 <lovinIntervalHoursFromAge>
                     <points>
-                        <li>(8, 1.4)</li>
-                        <li>(20, 1.5)</li>
-                        <li>(30, 3)</li>
+                        <li>(10, 1.8)</li>
+                        <li>(20, 2.5)</li>
+                        <li>(30, 5)</li>
                         <li>(50, 10)</li>
                         <li>(70, 20)</li>
                     </points>
