@@ -167,6 +167,7 @@
                 <weaponList>
                     <li>Gryph_Crossbow</li>
                     <li>Gryph_Cannon</li>
+                    <li>Hawk_TalonSentryGun</li>
                 </weaponList>
 
                 <apparelList>
@@ -339,7 +340,7 @@
 			    <capacities>
 				    <li>Scratch</li>
 			    </capacities>
-			    <power>15</power>
+			    <power>13</power>
 			    <cooldownTime>1.2</cooldownTime>
 			    <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
                 <surpriseAttack>
@@ -357,7 +358,7 @@
                 <capacities>
                     <li>Scratch</li>
                 </capacities>
-                <power>15</power>
+                <power>13</power>
                 <cooldownTime>1.2</cooldownTime>
                 <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
                 <surpriseAttack>
@@ -375,7 +376,7 @@
                 <capacities>
                     <li>Stab</li>
                 </capacities>
-                <power>30</power>
+                <power>25</power>
                 <cooldownTime>3.5</cooldownTime>
                 <linkedBodyPartsGroup>Beak</linkedBodyPartsGroup>
                 <surpriseAttack>

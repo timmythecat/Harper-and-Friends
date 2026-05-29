@@ -12,7 +12,7 @@
         <hediff>Burn</hediff>
         <armorCategory>Heat</armorCategory>
         <minDamageToFragment>10</minDamageToFragment>
-        <defaultDamage>5</defaultDamage>
+        <defaultDamage>6</defaultDamage>
         <defaultArmorPenetration>.6</defaultArmorPenetration>
         <explosionHeatEnergyPerCell>18</explosionHeatEnergyPerCell>
         <explosionCellFleck>BlastFlame</explosionCellFleck>
