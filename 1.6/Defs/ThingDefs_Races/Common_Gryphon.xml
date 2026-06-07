@@ -19,9 +19,9 @@
                 </head>
                 <headMasks>CommonGryphon/HeadMasks/Mask</headMasks>
                 <skeleton>
-                    <path>Sol/Dessicated/Dessicated_Solstice_east</path>
+                    <path>CommonGryphon/Dessicated_Male_east</path>
                 </skeleton>
-                <skull>Average_Normal_east
+                <skull>
                     <path>Other/Average_Normal_east</path>
                 </skull>
                 <swaddle>Other/Average_Normal_east</swaddle>
@@ -127,10 +127,10 @@
                         <li>Female_AverageNormal</li>
                     </headTypes>
 
-                    <customDrawSize>(1.8, 1.8)</customDrawSize>
+                    <customDrawSize>(1.9, 1.9)</customDrawSize>
                     <customPortraitDrawSize>(1.6, 1.6)</customPortraitDrawSize>
                     <customPortraitHeadDrawSize>(1.5, 1.5)</customPortraitHeadDrawSize>
-                    <customHeadDrawSize>(1.9, 1.9)</customHeadDrawSize>
+                    <customHeadDrawSize>(2.0, 2.0)</customHeadDrawSize>
                     <borderScale>4.0</borderScale>
                     <atlasScale>3</atlasScale>
 

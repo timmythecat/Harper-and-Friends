@@ -38,11 +38,6 @@
   </BodyPartGroupDef>
   
   <BodyPartGroupDef>
-    <defName>HeadAttackTool</defName>
-    <label>head</label>
-  </BodyPartGroupDef>
-  
-  <BodyPartGroupDef>
     <defName>FrontLeftLeg</defName>
     <label>front left leg</label>
     <labelShort>leg</labelShort>

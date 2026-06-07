@@ -18,11 +18,9 @@
                     <path>CreamGryphon/Heads/</path>
                 </head>
                 <skeleton>
-                    <path>Sol/Dessicated/Dessicated_Solstice_east</path>
+                    <path>CommonGryphon/Dessicated_Male_east</path>
                 </skeleton>
-                <skull>Average_Normal_east
-                    <path>Other/Average_Normal_east</path>
-                </skull>
+                <skull>Other/Average_Normal_east</skull>
                 <swaddle>Other/Average_Normal_east</swaddle>
             </graphicPaths> 
 

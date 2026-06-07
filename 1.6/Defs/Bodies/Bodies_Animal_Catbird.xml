@@ -86,15 +86,16 @@
           <parts>
             <li>
               <def>Head</def>
-              <coverage>0.65</coverage>
+              <coverage>0.7</coverage>
               <groups>
+                <li>UpperHead</li>
                 <li>HeadAttackTool</li>
                 <li>Hawk_FullHead</li>
               </groups>
               <parts>
                 <li>
                   <def>Skull</def>
-                  <coverage>0.40</coverage>
+                  <coverage>0.25</coverage>
                   <depth>Inside</depth>
                   <parts>
                     <li>
@@ -107,12 +108,12 @@
                 <li>
                   <def>Eye</def>
                   <customLabel>left eye</customLabel>
-                  <coverage>0.12</coverage>
+                  <coverage>0.1</coverage>
                 </li>
                 <li>
                   <def>Eye</def>
                   <customLabel>right eye</customLabel>
-                  <coverage>0.12</coverage>
+                  <coverage>0.1</coverage>
                 </li>
                 <li>
                   <def>Ear</def>
@@ -126,7 +127,7 @@
                 </li>
                 <li>
                   <def>Beak</def>
-                  <coverage>0.2</coverage>
+                  <coverage>0.15</coverage>
                   <groups>
                     <li>Beak</li>
                   </groups>
