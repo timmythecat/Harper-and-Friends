@@ -322,8 +322,8 @@
             <ArmorRating_Sharp>0.6</ArmorRating_Sharp>
             <ArmorRating_Heat>0.6</ArmorRating_Heat>
             <MoveSpeed>7</MoveSpeed>
-            <ComfyTemperatureMin>-25</ComfyTemperatureMin>
-			<ComfyTemperatureMax>50</ComfyTemperatureMax>
+            <ComfyTemperatureMin>-22</ComfyTemperatureMin>
+			<ComfyTemperatureMax>48</ComfyTemperatureMax>
             <LeatherAmount>20</LeatherAmount>
 			<RoyalFavorValue>2</RoyalFavorValue>
             <Flammability>0.4</Flammability>

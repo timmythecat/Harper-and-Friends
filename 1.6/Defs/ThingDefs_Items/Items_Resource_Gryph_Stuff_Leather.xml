@@ -12,9 +12,9 @@
             <MarketValue>4</MarketValue>
             <Flammability>0.5</Flammability>
             <DeteriorationRate>1</DeteriorationRate>
-            <StuffPower_Armor_Sharp>1.2</StuffPower_Armor_Sharp>
+            <StuffPower_Armor_Sharp>1.0</StuffPower_Armor_Sharp>
             <StuffPower_Armor_Blunt>1.4</StuffPower_Armor_Blunt>
-            <StuffPower_Armor_Heat>0.3</StuffPower_Armor_Heat>
+            <StuffPower_Armor_Heat>0.4</StuffPower_Armor_Heat>
             <StuffPower_Insulation_Cold>20</StuffPower_Insulation_Cold>
             <StuffPower_Insulation_Heat>20</StuffPower_Insulation_Heat>
         </statBases>

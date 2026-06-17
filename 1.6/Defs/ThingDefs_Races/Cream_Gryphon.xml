@@ -210,8 +210,8 @@
 			<leatherDef>Gryphon_Feather</leatherDef>
 			<nameCategory>HumanStandard</nameCategory>
 			<body>QuadrupedAnimalWithWingsAndBeak</body>
-			<baseBodySize>3</baseBodySize>
-			<baseHealthScale>4</baseHealthScale>
+			<baseBodySize>2.5</baseBodySize>
+			<baseHealthScale>3</baseHealthScale>
 			<foodType>CarnivoreAnimal, OmnivoreHuman</foodType>
             <baseHungerRate>0.60</baseHungerRate>
 			<gestationPeriodDays>20</gestationPeriodDays>
@@ -320,15 +320,15 @@
             <ArmorRating_Sharp>0.6</ArmorRating_Sharp>
             <ArmorRating_Heat>0.6</ArmorRating_Heat>
             <MoveSpeed>7</MoveSpeed>
-            <ComfyTemperatureMin>-25</ComfyTemperatureMin>
-			<ComfyTemperatureMax>50</ComfyTemperatureMax>
+            <ComfyTemperatureMin>-22</ComfyTemperatureMin>
+			<ComfyTemperatureMax>46</ComfyTemperatureMax>
             <LeatherAmount>20</LeatherAmount>
 			<RoyalFavorValue>2</RoyalFavorValue>
             <Flammability>0.4</Flammability>
             <ImmunityGainSpeed>1.1</ImmunityGainSpeed>
             <FoodPoisonChance>0.8</FoodPoisonChance>
             <MentalBreakThreshold>0.35</MentalBreakThreshold>
-            <CarryingCapacity>100</CarryingCapacity>
+            <CarryingCapacity>80</CarryingCapacity>
             <VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">0.1</VacuumResistance>
         </statBases>
 

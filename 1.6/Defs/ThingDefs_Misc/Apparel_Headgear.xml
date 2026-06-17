@@ -12,18 +12,18 @@
     </graphicData>
     <statBases>
       <WorkToMake>10000</WorkToMake>
-      <MaxHitPoints>300</MaxHitPoints>
+      <MaxHitPoints>400</MaxHitPoints>
       <Mass>1.2</Mass>
       <Flammability>0.2</Flammability>
       <ArmorRating_Sharp>0.1</ArmorRating_Sharp>
-      <ArmorRating_Heat>0.2</ArmorRating_Heat>
+      <ArmorRating_Heat>0.3</ArmorRating_Heat>
       <Insulation_Cold>20</Insulation_Cold>
       <Insulation_Heat>5</Insulation_Heat>
       <EquipDelay>2</EquipDelay>
       <Beauty>1</Beauty>
     </statBases>
     <equippedStatOffsets>
-      <ToxicEnvironmentResistance>0.2</ToxicEnvironmentResistance>
+      <ToxicEnvironmentResistance>0.3</ToxicEnvironmentResistance>
       <VacuumResistance>0.5</VacuumResistance>
     </equippedStatOffsets>
     <smeltable>true</smeltable>
@@ -81,18 +81,18 @@
     <techLevel>Spacer</techLevel>
     <statBases>
       <WorkToMake>6000</WorkToMake>
-      <MaxHitPoints>200</MaxHitPoints>
+      <MaxHitPoints>250</MaxHitPoints>
       <Mass>0.8</Mass>
       <Flammability>0.2</Flammability>
-      <ArmorRating_Sharp>0.1</ArmorRating_Sharp>
-      <ArmorRating_Heat>0.2</ArmorRating_Heat>
+      <ArmorRating_Sharp>0.2</ArmorRating_Sharp>
+      <ArmorRating_Heat>0.3</ArmorRating_Heat>
       <Insulation_Cold>10</Insulation_Cold>
       <Insulation_Heat>5</Insulation_Heat>
       <EquipDelay>1</EquipDelay>
     </statBases>
     <equippedStatOffsets>
       <ToxicEnvironmentResistance>0.1</ToxicEnvironmentResistance>
-      <VacuumResistance>0.30</VacuumResistance>
+      <VacuumResistance>0.35</VacuumResistance>
     </equippedStatOffsets>
     <smeltable>true</smeltable>
     <apparel>

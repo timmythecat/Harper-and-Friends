@@ -77,7 +77,7 @@
         <label>gryphon bionic parts</label>
         <description>Build high-tech gryphon bionic body parts to replace limbs and eyes. Requires a skilled doctor to attach.</description>
         <tab>Hawk_Gryphon</tab>
-        <baseCost>1000</baseCost>
+        <baseCost>1500</baseCost>
         <techLevel>Spacer</techLevel>
         <prerequisites>
             <li>AdvancedFabrication</li>
