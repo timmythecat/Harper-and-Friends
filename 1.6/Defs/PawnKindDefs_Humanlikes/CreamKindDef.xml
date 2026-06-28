@@ -62,21 +62,5 @@
         <invNutrition>2</invNutrition>
         <invFoodDef>Pemmican</invFoodDef>
         <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
-    </PawnKindDef> 
-
-    <PawnKindDef ParentName="VillagerBase">
-        <defName>CreamGryph_Villager</defName>
-        <label>gryphon villager</label>
-        <combatPower>80</combatPower>
-        <race>cream_gryphon</race>
-        <weaponTags>
-            <li>GryphonNeolithic</li>
-        </weaponTags>
-        <techHediffsTags>
-            <li>GryphAdvanced</li>
-        </techHediffsTags>
-        <techHediffsChance>0.2</techHediffsChance>
-        <initialWillRange>1~4</initialWillRange>
-        <initialResistanceRange>12~18</initialResistanceRange>
-    </PawnKindDef> 
+    </PawnKindDef>
 </Defs>

@@ -402,8 +402,9 @@
       <li>
         <statOffsets>
           <MeleeDodgeChance>5</MeleeDodgeChance>
-          <CrawlSpeed>0.2</CrawlSpeed>
-          <VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">0.1</VacuumResistance>
+          <CrawlSpeed>0.20</CrawlSpeed>
+          <ArmorRating_Sharp>0.2</ArmorRating_Sharp>
+          <ArmorRating_Blunt>0.1</ArmorRating_Blunt>
         </statOffsets>
       </li>
     </stages>
