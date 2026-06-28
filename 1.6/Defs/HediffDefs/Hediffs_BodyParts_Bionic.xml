@@ -401,7 +401,7 @@
     <stages>
       <li>
         <statOffsets>
-          <MeleeDodgeChance>5</MeleeDodgeChance>
+          <MeleeDodgeChance>3</MeleeDodgeChance>
           <CrawlSpeed>0.20</CrawlSpeed>
           <ArmorRating_Sharp>0.2</ArmorRating_Sharp>
           <ArmorRating_Blunt>0.1</ArmorRating_Blunt>
