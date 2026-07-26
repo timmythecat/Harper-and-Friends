@@ -418,7 +418,7 @@
                         <kindDefs>
                             <li>Hawk_Gryphon_Villager</li>
                         </kindDefs>
-                        <chance>60.0</chance>
+                        <chance>50.0</chance>
                     </li>
                     </pawnKindEntries>
                     <factionDefs>
@@ -432,7 +432,7 @@
                     <kindDefs>
                         <li>Hawk_Gryphon_SpaceRefugee</li>
                     </kindDefs>
-                    <chance>50.0</chance>
+                    <chance>40.0</chance>
                 </li>
             </alienrefugeekinds>
 
@@ -441,7 +441,7 @@
                     <kindDefs>
                         <li>Hawk_Gryphon_Slave</li>
                     </kindDefs>
-                    <chance>30.0</chance>
+                    <chance>25.0</chance>
                 </li>
             </alienslavekinds>
         </pawnKindSettings>
