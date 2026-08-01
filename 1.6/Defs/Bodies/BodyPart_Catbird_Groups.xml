@@ -109,7 +109,7 @@
   <BodyPartDef>
     <defName>Hawkimport_Heart</defName>
     <label>heart</label>
-    <hitPoints>18</hitPoints>
+    <hitPoints>16</hitPoints>
     <bleedRate>5</bleedRate>
     <skinCovered>false</skinCovered>
     <tags>
@@ -136,7 +136,7 @@
   <BodyPartDef>
     <defName>Hawkimport_Lung</defName>
     <label>lung</label>
-    <hitPoints>18</hitPoints>
+    <hitPoints>16</hitPoints>
     <skinCovered>false</skinCovered>
     <tags>
       <li>BreathingSource</li>
@@ -153,5 +153,17 @@
       <li>BloodFiltrationKidney</li>
     </tags>
     <spawnThingOnRemoved>Hawkimport_Kidney</spawnThingOnRemoved>
+  </BodyPartDef>
+
+  <BodyPartDef>
+    <defName>Hawkimport_Crop</defName>
+    <label>crop</label>
+    <hitPoints>18</hitPoints>
+    <permanentInjuryChanceFactor>0.1</permanentInjuryChanceFactor>
+    <skinCovered>false</skinCovered>
+    <tags>
+      <li>EatingSource</li>
+      <li>MetabolismSource</li>
+    </tags>
   </BodyPartDef>
 </Defs>
